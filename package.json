@@ -1,0 +1,35 @@
+{
+  "name": "kids-story",
+  "version": "1.0.0",
+  "description": "website for a kindergarten",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnrf/kids-story.git"
+  },
+  "keywords": [
+    "markup",
+    "layout",
+    "site",
+    "website",
+    "web",
+    "dev",
+    "development",
+    "html",
+    "css",
+    "js",
+    "java",
+    "script",
+    "code",
+    "coding"
+  ],
+  "author": "YuAP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pnrf/kids-story/issues"
+  },
+  "homepage": "https://github.com/pnrf/kids-story#readme"
+}
