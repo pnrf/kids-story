@@ -610,3 +610,9 @@ wp-config.php
 
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,linux,visualstudiocode,webstorm,sass,wordpress
+
+
+# storybook
+/.storybook
+/stories
+*.stories.*
