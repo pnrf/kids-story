@@ -11,7 +11,38 @@
 </head>
 <body class="root">
   <div class="page">
-    <header class="header"></header>
+    <header class="header">
+      <div class="address header__address">
+        <a class="link" href="#">Москва, ул. Муравская д.38, к.1</a>
+        <a class="link" href="#">ЖК Мир Митино
+          <span class="address address_font-style_highlighted">М. Пятницкое шоссе</span>
+        </a>
+      </div>
+      <div class="header__wrapper">
+        <a class="link" href="#">
+          <img class="logo" src="<%=require('../images/logo.svg')%>" alt="Логотип детского сада">
+        </a>
+        <nav class="navigation header__navigation">
+          <ul class="navigation__list">
+            <li class="link navigation__item"><a class="link" href="">О нас</a><div class="navigation__icon-arrow"></div></li>
+            <li class="link navigation__item"><a class="link" href="">Расписание</a><div class="navigation__icon-arrow"></div></li>
+            <li class="link navigation__item"><a class="link" href="">Программа</a><div class="navigation__icon-arrow"></div></li>
+            <li class="navigation__item"><a class="link" href="">Фото и видео</a></li>
+            <li class="navigation__item"><a class="link" href="">Команда</a></li>
+            <li class="navigation__item"><a class="link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="phone">
+          <a class="link phone__number" href="tel:+74951233425">+7 495 123 34 25</a>
+          <a class="link phone__link" href="#">Заказать обратный звонок</a>
+        </div>
+        <ul class="socials header__socials">
+          <li class="socials__item"><a class="link" href="#"><img src="<%=require('../images/icons/icon-vk.svg')%>" alt="Иконка соцсети Вконтакте"></a></li>
+          <li class="socials__item"><a class="link" href="#"></a><img src="<%=require('../images/icons/icon-tg.svg')%>" alt="Иконка соцсети Вконтакте"></li>
+        </ul>
+        <button class="button header__button">Записаться на экскурсию</button>
+      </div>
+    </header>
     <main class="main"></main>
     <footer class="footer"></footer>
   </div>

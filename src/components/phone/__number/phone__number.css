@@ -1,0 +1,14 @@
+.phone__number {
+  padding-top: 17px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.phone__number::before {
+  content: '';
+  padding: 0 14px;
+  background: transparent url('../../../images/icons/icon-phone.svg') center / 14px 14px no-repeat;
+  width: 14px;
+  height: 14px;
+}

@@ -2,6 +2,44 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
-/** blocks */
 
+
+/** address */
+@import url('../components/address/address.css');
+@import url('../components/address/_font-style_highlighted/address_font-style_highlighted.css');
+
+/** header */
+@import url('../components/header/header.css');
+@import url('../components/header/__address/header__address.css');
+@import url('../components/header/__button/header__button.css');
+@import url('../components/header/__navigation/header__navigation.css');
+@import url('../components/header/__socials/header__socials.css');
+@import url('../components/header/__wrapper/header__wrapper.css');
+
+/** link */
+@import url('../components/link/link.css');
+
+/** logo */
+@import url('../components/logo/logo.css');
+
+/** navigation */
+@import url('../components/navigation/navigation.css');
+@import url('../components/navigation/__icon-arrow/navigation__icon-arrow.css');
+@import url('../components/navigation/__list/navigation__list.css');
+@import url('../components/navigation/__item/navigation__item.css');
+
+/** page */
+@import url('../components/page/page.css');
+
+/** phone */
+@import url('../components/phone/phone.css');
+@import url('../components/phone/__link/phone__link.css');
+@import url('../components/phone/__number/phone__number.css');
+
+/** root */
+@import url('../components/root/root.css');
+
+/** socials */
+@import url('../components/socials/socials.css');
+@import url('../components/socials/__item/socials__item.css');
 

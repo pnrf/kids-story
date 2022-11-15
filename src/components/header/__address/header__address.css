@@ -1,0 +1,8 @@
+.header__address {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  width: 100%;
+  text-align: right;
+  color: #EA5D4A;
+}

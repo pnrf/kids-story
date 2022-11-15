@@ -1,0 +1,9 @@
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover {
+  opacity: .6;
+  cursor: pointer;
+}

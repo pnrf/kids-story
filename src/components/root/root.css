@@ -1,0 +1,17 @@
+.root {
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+  min-width: 320px;
+  background-color: #fff;
+  color: #334155;
+  font-family: 'Montserrat', Arial, sans-serif;
+  cursor: auto;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
