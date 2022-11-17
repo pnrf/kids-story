@@ -43,3 +43,13 @@
 @import url('../components/socials/socials.css');
 @import url('../components/socials/__item/socials__item.css');
 
+/** swiper (slider) */
+
+@import url('../components/swiper/swiper.css');
+@import url('../components/swiper/swiper-button-next.css');
+@import url('../components/swiper/swiper-button-prev.css');
+@import url('../components/swiper/swiper-pagination.css');
+@import url('../components/swiper/swiper-scrollbar.css');
+@import url('../components/swiper/swiper-slide.css');
+@import url('../components/swiper/swiper-wrapper.css');
+
