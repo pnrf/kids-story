@@ -6,6 +6,14 @@
 @import url('../styles/address/address.css');
 @import url('../styles/address/_font-style_highlighted/address_font-style_highlighted.css');
 
+/** advantages */
+@import url('../styles/advantages/advantages.css');
+@import url('../styles/advantages/__item/advantages__item.css');
+@import url('../styles/advantages/__list/advantages__list.css');
+@import url('../styles/advantages/__pic/advantages__pic.css');
+@import url('../styles/advantages/__text/advantages__text.css');
+@import url('../styles/advantages/__text/_style_highlighted/advantages__text_style_highlighted.css');
+
 /** header */
 @import url('../styles/header/header.css');
 @import url('../styles/header/__address/header__address.css');
