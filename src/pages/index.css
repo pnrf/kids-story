@@ -2,6 +2,10 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 
+@import url('../styles/section/section.css');
+@import url('../styles/section/__text/section__text.css');
+@import url('../styles/section/__title/section__title.css');
+
 /** address */
 @import url('../styles/address/address.css');
 @import url('../styles/address/_font-style_highlighted/address_font-style_highlighted.css');
