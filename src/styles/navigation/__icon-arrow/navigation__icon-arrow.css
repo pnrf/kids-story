@@ -1,7 +1,7 @@
 .navigation__icon-arrow {
-  position: absolute;
-  top: 20px;
-  left: calc(50% - 8px);
+  /* position: absolute; */
+  /* top: 20px;
+  left: calc(50% - 8px); */
   padding: 8px;
   background: transparent url('../../../images/icons/arrow-down-navigation.svg') center / 14px 7px no-repeat;
 }

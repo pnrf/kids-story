@@ -18,6 +18,10 @@
 @import url('../styles/advantages/__text/advantages__text.css');
 @import url('../styles/advantages/__text/_style_highlighted/advantages__text_style_highlighted.css');
 
+/** drop-down-desktop */
+@import url('../styles/drop-down-desktop/drop-down-desktop.css');
+@import url('../styles/drop-down-desktop/__item/drop-down-desktop__item.css');
+
 /** header */
 @import url('../styles/header/header.css');
 @import url('../styles/header/__address/header__address.css');
