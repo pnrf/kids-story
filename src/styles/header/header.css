@@ -1,4 +1,15 @@
 .header {
-  margin: 17px 0 34px;
-  max-width: 1430px;
+  margin: 18px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1420px;
+  /* width: 100%; */
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    margin: 17px 20px 34px;
+  }
 }

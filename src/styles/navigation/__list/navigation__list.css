@@ -1,6 +1,7 @@
 .navigation__list {
   display: flex;
   flex-direction: row;
+  white-space: nowrap;
   gap: 20px;
   margin: 0;
   padding: 6px 0 0 0;

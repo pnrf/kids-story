@@ -1,8 +1,14 @@
 .header__address {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header__address {
   display: flex;
   justify-content: flex-end;
   gap: 25px;
   width: 100%;
   text-align: right;
   color: #EA5D4A;
+  }
 }
