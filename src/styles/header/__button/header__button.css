@@ -18,10 +18,17 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 570px) {
   .header__button {
-    margin: 0;
+    margin: 0 26px 0 0;
     width: 192px;
 
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .header__button {
+    margin: 0;
+  }
+}
+

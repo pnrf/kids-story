@@ -12,7 +12,13 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 570px) {
+  .header__burger {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .header__burger {
     display: none;
   }
