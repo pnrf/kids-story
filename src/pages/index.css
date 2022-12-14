@@ -66,3 +66,92 @@
 @import url('../vendor/swiper/swiper-scrollbar.css');
 @import url('../vendor/swiper/swiper-slide.css');
 @import url('../vendor/swiper/swiper-wrapper.css');
+
+.drop-down-mobile {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  width: 262px;
+  min-height: 100vh;
+  transition: all 200ms ease;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  background: linear-gradient(130.83deg, rgba(128, 129, 189, 0.8) 14.95%, rgba(128, 129, 189, 0.8) 79.77%);
+}
+
+.drop-down-mobile_visible {
+  display: flex;
+}
+
+.drop-down-mobile__button-cross {
+  position: inherit;
+  top: 10px;
+  right: 20px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-image: url(../images/icons/cross-white.svg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.drop-down-mobile__list {
+  margin: 40px 0 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  list-style: none;
+  gap: 27px;
+}
+
+.drop-down-mobile__item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.drop-down-mobile__button {
+  margin: 0;
+  padding: 0;
+  width: 192px;
+  height: 40px;
+  background-color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  border: none;
+  border-radius: 50px;
+  white-space: nowrap;
+}
+
+.drop-down-mobile__button:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+.drop-down-mobile__phone-number {
+  color: #fff;
+}
+
+.drop-down-mobile__phone-link {
+  color: #fff;
+}
+
+.drop-down-mobile__socials {
+  margin: 0;
+}

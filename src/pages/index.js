@@ -14,3 +14,10 @@ const swiper = new Swiper('.swiper', {
 
   loop: true,
 });
+
+const headerBurgerButton = document.querySelector('.header__burger');
+const dropDownMobileSelector = document.querySelector('.drop-down-mobile');
+
+headerBurgerButton.addEventListener('click', () => {
+  dropDownMobileSelector.classList.toggle('drop-down-mobile_visible');
+});
