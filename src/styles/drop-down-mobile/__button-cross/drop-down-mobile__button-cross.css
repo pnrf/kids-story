@@ -1,0 +1,18 @@
+.drop-down-mobile__button-cross {
+  position: inherit;
+  top: 10px;
+  right: 20px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-image: url(../../../images/icons/cross-white.svg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}

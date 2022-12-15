@@ -20,4 +20,8 @@ const dropDownMobileSelector = document.querySelector('.drop-down-mobile');
 
 headerBurgerButton.addEventListener('click', () => {
   dropDownMobileSelector.classList.toggle('drop-down-mobile_visible');
+  dropDownMobileSelector.querySelector('.drop-down-mobile__button-cross').addEventListener('click', () => {
+    dropDownMobileSelector.classList.remove('drop-down-mobile_visible');
+  });
 });
+
