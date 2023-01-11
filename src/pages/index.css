@@ -34,6 +34,9 @@
 @import url('../styles/drop-down-mobile/__socials/drop-down-mobile__socials.css');
 @import url('../styles/drop-down-mobile/_visible/drop-down-mobile_visible.css');
 
+/** footer */
+@import url('../styles/footer/footer.css');
+
 /** header */
 @import url('../styles/header/header.css');
 @import url('../styles/header/__address/header__address.css');
