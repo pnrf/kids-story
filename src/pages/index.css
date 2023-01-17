@@ -2,6 +2,12 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 
+/** root */
+@import url('../styles/root/root.css');
+
+/** page */
+@import url('../styles/page/page.css');
+
 @import url('../styles/section/section.css');
 @import url('../styles/section/__text/section__text.css');
 @import url('../styles/section/__title/section__title.css');
@@ -58,16 +64,14 @@
 @import url('../styles/navigation/__list/navigation__list.css');
 @import url('../styles/navigation/__item/navigation__item.css');
 
-/** page */
-@import url('../styles/page/page.css');
+
 
 /** phone */
 @import url('../styles/phone/phone.css');
 @import url('../styles/phone/__link/phone__link.css');
 @import url('../styles/phone/__number/phone__number.css');
 
-/** root */
-@import url('../styles/root/root.css');
+
 
 /** socials */
 @import url('../styles/socials/socials.css');
