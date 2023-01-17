@@ -2,12 +2,6 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 
-/** root */
-@import url('../styles/root/root.css');
-
-/** page */
-@import url('../styles/page/page.css');
-
 @import url('../styles/section/section.css');
 @import url('../styles/section/__text/section__text.css');
 @import url('../styles/section/__title/section__title.css');
@@ -18,6 +12,7 @@
 
 /** advantages */
 @import url('../styles/advantages/advantages.css');
+@import url('../styles/advantages/__container/advantages__container.css');
 @import url('../styles/advantages/__item/advantages__item.css');
 @import url('../styles/advantages/__list/advantages__list.css');
 @import url('../styles/advantages/__pic/advantages__pic.css');
@@ -42,6 +37,12 @@
 
 /** footer */
 @import url('../styles/footer/footer.css');
+@import url('../styles/footer/__contacts/footer__contacts.css');
+@import url('../styles/footer/__container/footer__container.css');
+@import url('../styles/footer/__legal/footer__legal.css');
+@import url('../styles/footer/__navigation/footer__navigation.css');
+@import url('../styles/footer/__phone/footer__phone.css');
+@import url('../styles/footer/__wrapper/footer__wrapper.css');
 
 /** header */
 @import url('../styles/header/header.css');
@@ -49,6 +50,7 @@
 @import url('../styles/header/__burger/header__burger.css');
 @import url('../styles/header/__button/header__button.css');
 @import url('../styles/header/__navigation/header__navigation.css');
+@import url('../styles/header/__phone/header__phone.css');
 @import url('../styles/header/__socials/header__socials.css');
 @import url('../styles/header/__wrapper/header__wrapper.css');
 
@@ -64,17 +66,20 @@
 @import url('../styles/navigation/__list/navigation__list.css');
 @import url('../styles/navigation/__item/navigation__item.css');
 
-
+/** page */
+@import url('../styles/page/page.css');
 
 /** phone */
 @import url('../styles/phone/phone.css');
 @import url('../styles/phone/__link/phone__link.css');
 @import url('../styles/phone/__number/phone__number.css');
 
-
+/** root */
+@import url('../styles/root/root.css');
 
 /** socials */
 @import url('../styles/socials/socials.css');
+@import url('../styles/socials/__image/socials__image.css');
 @import url('../styles/socials/__item/socials__item.css');
 
 /** swiper (slider) */
