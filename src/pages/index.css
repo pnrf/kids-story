@@ -2,29 +2,46 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 
-@import url('../styles/section/section.css');
-@import url('../styles/section/__text/section__text.css');
-@import url('../styles/section/__title/section__title.css');
+/** ATOMIC STYLES */
 
-/** address */
-@import url('../styles/address/address.css');
-@import url('../styles/address/_font-style_highlighted/address_font-style_highlighted.css');
+
+/** COMPOSITE STYLES */
+
+
+/** SECTION STYLES */
+
+
+/** PAGE STYLES */
+@import url('../styles/page/root/root.css');
+@import url('../styles/page/page/page.css');
+
+
+
+/** DELETE STYLES BELOW */
+
+/* @import url('../styles/section/section.css');
+@import url('../styles/section/__text/section__text.css');
+@import url('../styles/section/__title/section__title.css'); */
+
+/* address */
+/* @import url('../styles/address/address.css');
+@import url('../styles/address/_font-style_highlighted/address_font-style_highlighted.css'); */
 
 /** advantages */
-@import url('../styles/advantages/advantages.css');
+/* @import url('../styles/advantages/advantages.css');
 @import url('../styles/advantages/__container/advantages__container.css');
 @import url('../styles/advantages/__item/advantages__item.css');
 @import url('../styles/advantages/__list/advantages__list.css');
 @import url('../styles/advantages/__pic/advantages__pic.css');
 @import url('../styles/advantages/__text/advantages__text.css');
-@import url('../styles/advantages/__text/_style_highlighted/advantages__text_style_highlighted.css');
+@import url('../styles/advantages/__text/_style_highlighted/advantages__text_style_highlighted.css'); */
 
 /** drop-down-desktop */
-@import url('../styles/drop-down-desktop/drop-down-desktop.css');
-@import url('../styles/drop-down-desktop/__item/drop-down-desktop__item.css');
+/* @import url('../styles/drop-down-desktop/drop-down-desktop.css');
+@import url('../styles/drop-down-desktop/__item/drop-down-desktop__item.css'); */
 
 /** drop-down-mobile */
-@import url('../styles/drop-down-mobile/drop-down-mobile.css');
+/* @import url('../styles/drop-down-mobile/drop-down-mobile.css');
 @import url('../styles/drop-down-mobile/__button-cross/drop-down-mobile__button-cross.css');
 @import url('../styles/drop-down-mobile/__button/drop-down-mobile__button.css');
 @import url('../styles/drop-down-mobile/__item/drop-down-mobile__item.css');
@@ -33,60 +50,60 @@
 @import url('../styles/drop-down-mobile/__phone-link/drop-down-mobile__phone-link.css');
 @import url('../styles/drop-down-mobile/__phone-number/drop-down-mobile__phone-number.css');
 @import url('../styles/drop-down-mobile/__socials/drop-down-mobile__socials.css');
-@import url('../styles/drop-down-mobile/_visible/drop-down-mobile_visible.css');
+@import url('../styles/drop-down-mobile/_visible/drop-down-mobile_visible.css'); */
 
 /** footer */
-@import url('../styles/footer/footer.css');
+/* @import url('../styles/footer/footer.css');
 @import url('../styles/footer/__contacts/footer__contacts.css');
 @import url('../styles/footer/__container/footer__container.css');
 @import url('../styles/footer/__legal/footer__legal.css');
 @import url('../styles/footer/__navigation/footer__navigation.css');
 @import url('../styles/footer/__phone/footer__phone.css');
-@import url('../styles/footer/__wrapper/footer__wrapper.css');
+@import url('../styles/footer/__wrapper/footer__wrapper.css'); */
 
 /** header */
-@import url('../styles/header/header.css');
+/* @import url('../styles/header/header.css');
 @import url('../styles/header/__address/header__address.css');
 @import url('../styles/header/__burger/header__burger.css');
 @import url('../styles/header/__button/header__button.css');
 @import url('../styles/header/__navigation/header__navigation.css');
 @import url('../styles/header/__phone/header__phone.css');
 @import url('../styles/header/__socials/header__socials.css');
-@import url('../styles/header/__wrapper/header__wrapper.css');
+@import url('../styles/header/__wrapper/header__wrapper.css'); */
 
 /** link */
-@import url('../styles/link/link.css');
+/* @import url('../styles/link/link.css'); */
 
 /** logo */
-@import url('../styles/logo/logo.css');
+/* @import url('../styles/logo/logo.css'); */
 
 /** navigation */
-@import url('../styles/navigation/navigation.css');
+/* @import url('../styles/navigation/navigation.css');
 @import url('../styles/navigation/__icon-arrow/navigation__icon-arrow.css');
 @import url('../styles/navigation/__list/navigation__list.css');
-@import url('../styles/navigation/__item/navigation__item.css');
+@import url('../styles/navigation/__item/navigation__item.css'); */
 
 /** page */
-@import url('../styles/page/page.css');
+/* @import url('../styles/page/page.css'); */
 
 /** phone */
-@import url('../styles/phone/phone.css');
+/* @import url('../styles/phone/phone.css');
 @import url('../styles/phone/__link/phone__link.css');
-@import url('../styles/phone/__number/phone__number.css');
+@import url('../styles/phone/__number/phone__number.css'); */
 
 /** root */
-@import url('../styles/root/root.css');
+/* @import url('../styles/root/root.css'); */
 
 /** socials */
-@import url('../styles/socials/socials.css');
+/* @import url('../styles/socials/socials.css');
 @import url('../styles/socials/__image/socials__image.css');
-@import url('../styles/socials/__item/socials__item.css');
+@import url('../styles/socials/__item/socials__item.css'); */
 
 /** swiper (slider) */
-@import url('../vendor/swiper/swiper.css');
+/* @import url('../vendor/swiper/swiper.css');
 @import url('../vendor/swiper/swiper-button-next.css');
 @import url('../vendor/swiper/swiper-button-prev.css');
 @import url('../vendor/swiper/swiper-pagination.css');
 @import url('../vendor/swiper/swiper-scrollbar.css');
 @import url('../vendor/swiper/swiper-slide.css');
-@import url('../vendor/swiper/swiper-wrapper.css');
+@import url('../vendor/swiper/swiper-wrapper.css'); */
