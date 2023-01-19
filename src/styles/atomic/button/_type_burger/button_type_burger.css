@@ -1,0 +1,25 @@
+.button_type_burger {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 28px;
+  height: 14px;
+  background-image: url('../../../../images/icons/drop-down-menu-btn.svg');
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 570px) {
+  .button_type_burger {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .button_type_burger {
+    display: none;
+  }
+}

@@ -2,22 +2,83 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 
-/** ATOMIC STYLES */
+/** -------------------- ATOMIC STYLES -------------------- */
 
+/** button */
+@import url('../styles/atomic/button/button.css');
+@import url('../styles/atomic/button/_type_burger/button_type_burger.css');
+@import url('../styles/atomic/button/_type_cross/button_type_cross.css');
+@import url('../styles/atomic/button/_type_submit/button_type_submit.css');
 
-/** COMPOSITE STYLES */
+/** link */
+@import url('../styles/atomic/link/link.css');
 
+/** logo */
+@import url('../styles/atomic/logo/logo.css');
 
-/** SECTION STYLES */
+/** phone */
+@import url('../styles/atomic/phone/phone.css');
 
+/** address */
+@import url('../styles/atomic/address/address.css');
+@import url('../styles/atomic/address/_font-style_highlighted/address_font-style_highlighted.css');
 
-/** PAGE STYLES */
+/** email */
+@import url('../styles/atomic/email/email.css');
+
+/** -------------------- COMPOSITE STYLES -------------------- */
+/** drop-down-desktop */
+@import url('../styles/composite/drop-down-desktop/drop-down-desktop.css');
+@import url('../styles/composite/drop-down-desktop/__item/drop-down-desktop__item.css');
+
+/** list */
+@import url('../styles/composite/list/list.css');
+
+/** navigation */
+@import url('../styles/composite/navigation/navigation.css');
+@import url('../styles/composite/navigation/__icon-arrow/navigation__icon-arrow.css');
+@import url('../styles/composite/navigation/__item/navigation__item.css');
+@import url('../styles/composite/navigation/__list/navigation__list.css');
+
+/** socials */
+@import url('../styles/composite/socials/socials.css');
+@import url('../styles/composite/socials/__image/socials__image.css');
+@import url('../styles/composite/socials/__item/socials__item.css');
+@import url('../styles/composite/socials/__link/socials__link.css');
+
+/** -------------------- SECTION STYLES -------------------- */
+
+/** footer  */
+@import url('../styles/section/footer/footer.css');
+@import url('../styles/section/footer/__address/footer__address.css');
+@import url('../styles/section/footer/__button/footer__button.css');
+@import url('../styles/section/footer/__container/footer__container.css');
+@import url('../styles/section/footer/__content/footer__content.css');
+@import url('../styles/section/footer/__email/footer__email.css');
+@import url('../styles/section/footer/__legal/footer__legal.css');
+@import url('../styles/section/footer/__logo/footer__logo.css');
+@import url('../styles/section/footer/__phone/footer__phone.css');
+@import url('../styles/section/footer/__socials/footer__socials.css');
+@import url('../styles/section/footer/__wrapper/footer__wrapper.css');
+
+/** header */
+@import url('../styles/section/header/header.css');
+@import url('../styles/section/header/__button/header__button.css');
+@import url('../styles/section/header/__container/header__container.css');
+@import url('../styles/section/header/__logo/header__logo.css');
+@import url('../styles/section/header/__navigation/header__navigation.css');
+@import url('../styles/section/header/__phone/header__phone.css');
+@import url('../styles/section/header/__socials/header__socials.css');
+@import url('../styles/section/header/__wrapper/header__wrapper.css');
+
+/** -------------------- PAGE STYLES -------------------- */
+
 @import url('../styles/page/root/root.css');
 @import url('../styles/page/page/page.css');
 
 
 
-/** DELETE STYLES BELOW */
+/** -------------------- DELETE STYLES BELOW -------------------- */
 
 /* @import url('../styles/section/section.css');
 @import url('../styles/section/__text/section__text.css');

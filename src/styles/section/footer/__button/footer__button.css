@@ -1,0 +1,25 @@
+.footer__button {
+  width: 280px;
+  height: 40px;
+  background-color: #EA5D4A;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+}
+
+@media screen and (min-width: 570px) {
+  .footer__button {
+    display: none;
+    margin: 0 26px 0 0;
+    width: 192px;
+    background-color: #8081BD;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__button {
+    margin: 0;
+  }
+}

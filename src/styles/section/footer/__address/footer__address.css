@@ -1,0 +1,5 @@
+.footer__address {
+  margin: 0 0 40px;
+  display: flex;
+  flex-direction: column;
+}

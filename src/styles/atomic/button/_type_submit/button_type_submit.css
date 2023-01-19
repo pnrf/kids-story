@@ -1,0 +1,16 @@
+.button_type_submit {
+  padding: 10px;
+  width: 245px;
+  height: 40px;
+  background-color: #fff;
+  color: #334155;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid rgba(128, 129, 189, 0.8);
+  border-radius: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+}

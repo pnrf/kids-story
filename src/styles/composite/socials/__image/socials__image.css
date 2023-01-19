@@ -1,0 +1,5 @@
+.socials__image {
+  object-fit: contain;
+  width: inherit;
+  height: inherit;
+}

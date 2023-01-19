@@ -1,0 +1,6 @@
+.navigation__list {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  gap: 20px;
+}

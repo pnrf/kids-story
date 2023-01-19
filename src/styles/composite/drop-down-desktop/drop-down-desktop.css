@@ -1,0 +1,25 @@
+.drop-down-desktop {
+  display: none;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  white-space: nowrap;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background: linear-gradient(130.83deg, rgba(83, 84, 136, 0.8) 14.95%, rgba(96, 97, 157, 0.8) 79.77%);
+}
+
+.drop-down-desktop::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  left: 0;
+  top: -10px;
+}

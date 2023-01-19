@@ -1,0 +1,9 @@
+.footer__legal {
+  margin: 30px 0 54px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}

@@ -1,0 +1,25 @@
+.header__button {
+  width: 280px;
+  height: 40px;
+  background-color: #EA5D4A;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  border: none;
+  text-transform: none;
+}
+
+/* @media screen and (min-width: 570px) {
+  .header__button {
+    margin: 0 26px 0 0;
+    width: 192px;
+    background-color: #8081BD;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header__button {
+    margin: 0;
+  }
+} */

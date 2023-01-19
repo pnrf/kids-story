@@ -1,0 +1,11 @@
+.button_type_cross {
+  border: 1px solid rgba(128, 129, 189, 0.8);
+  border-radius: 50px;
+  background-image: url(../../../../images/icons/cross-white.svg);
+  background-repeat: no-repeat;
+  background-color: rgba(128, 129, 189, 0.4);
+  background-position: center;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+}

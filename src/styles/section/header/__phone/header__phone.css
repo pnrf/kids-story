@@ -1,0 +1,14 @@
+.header__phone {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.header__phone::before {
+  content: '';
+  display: inline-block;
+  padding: 0 6px 0 0;
+  background: transparent url('../../../../images/icons/icon-phone.svg') center / 14px 14px no-repeat;
+  width: 14px;
+  height: 14px;
+}
