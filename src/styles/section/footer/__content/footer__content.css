@@ -1,4 +1,5 @@
 .footer__content {
+  margin-right: 105px;
   display: flex;
   flex-direction: column;
 }

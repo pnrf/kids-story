@@ -3,8 +3,3 @@
   font-size: 14px;
   line-height: 17px;
 }
-
-.navigation__item:hover .drop-down-desktop {
-  display: flex;
-  transition: all 200ms ease;
-}

@@ -1,0 +1,4 @@
+.navigation__item_hovered:hover .drop-down-desktop {
+  display: flex;
+  transition: all 200ms ease;
+}

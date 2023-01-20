@@ -38,7 +38,9 @@
 @import url('../styles/composite/navigation/navigation.css');
 @import url('../styles/composite/navigation/__icon-arrow/navigation__icon-arrow.css');
 @import url('../styles/composite/navigation/__item/navigation__item.css');
+@import url('../styles/composite/navigation/__item/_hovered/navigation__item_hovered.css');
 @import url('../styles/composite/navigation/__list/navigation__list.css');
+@import url('../styles/composite/navigation/__subitem/navigation__subitem.css');
 
 /** socials */
 @import url('../styles/composite/socials/socials.css');
