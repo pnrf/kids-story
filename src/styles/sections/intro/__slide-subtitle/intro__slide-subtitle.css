@@ -1,0 +1,12 @@
+.intro__slide-subtitle {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 470px;
+  position: absolute;
+  top: 304px;
+  left: 193px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}

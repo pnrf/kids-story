@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+// ------------ swiper ------------
 const swiper = new Swiper('.swiper', {
   modules: [Navigation, Pagination],
 
@@ -15,8 +16,8 @@ const swiper = new Swiper('.swiper', {
   },
 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.slider__button-next',
+    prevEl: '.slider__button-prev',
   },
 
   scrollbar: {
@@ -24,8 +25,10 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-const swiperA = document.querySelector('.swiper').swiper;
-swiperA.slideNext();
+// const swiper = document.querySelector('.swiper').swiper;
+// swiper.slideNext(1000, true);
+
+// ------------ dropdown mobile menu ------------
 
 const headerBurgerButton = document.querySelector('.header__burger');
 const dropDownMobileSelector = document.querySelector('.drop-down-mobile');

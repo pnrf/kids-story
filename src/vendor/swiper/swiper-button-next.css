@@ -1,16 +1,19 @@
 .swiper-button-next {
+ position: static;
+
   width: 60px;
   height: 60px;
-  color: #334155;
+
   border: 1px solid #334155;
   border-radius: 50%;
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
-  background-size: 20px 20px;
+  background-size: 20px 20px; */
 }
 
 .swiper-button-next::after {
-  display: none;
+  color: #334155;
+  font-size: 12px;
 }
 
 .swiper-button-next:hover {

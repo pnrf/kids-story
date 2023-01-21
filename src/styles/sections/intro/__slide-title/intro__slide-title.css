@@ -1,0 +1,11 @@
+.intro__slide-title {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: absolute;
+  top: 176px;
+  left: 193px;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 117px;
+}

@@ -1,0 +1,19 @@
+.slider__button-next {
+  position: absolute;
+  bottom: 47px;
+  left: 288px;
+  z-index: 10;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .8) url('../../../../images/icons/slider-button-arrow.svg') 50%/40px 25px no-repeat;
+ }
+
+ /* .slider__button-next::after {
+   color: #334155;
+   font-size: 12px;
+ } */
+
+ /* .slider__button-next:hover {
+  background-color: #fff;
+ } */
