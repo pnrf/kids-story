@@ -44,9 +44,19 @@
 @import url('../styles/components/navigation/__subitem/navigation__subitem.css');
 
 /** slider */
-@import url('../styles/components/slider/slider.css');
+/* @import url('../styles/components/slider/slider.css'); */
+
 @import url('../styles/components/slider/__button-next/slider__button-next.css');
+@import url('../styles/components/slider/__button-next/_section_team/slider__button-next_section_team.css');
 @import url('../styles/components/slider/__button-prev/slider__button-prev.css');
+@import url('../styles/components/slider/__button-prev/_section_team/slider__button-prev_section_team.css');
+
+@import url('../styles/components/slider/__card/slider__card.css');
+@import url('../styles/components/slider/__card-experience/slider__card-experience.css');
+@import url('../styles/components/slider/__card-image/slider__card-image.css');
+@import url('../styles/components/slider/__card-name/slider__card-name.css');
+@import url('../styles/components/slider/__card-position/slider__card-position.css');
+@import url('../styles/components/slider/__card-surname/slider__card-surname.css');
 
 /** socials */
 @import url('../styles/components/socials/socials.css');
@@ -85,6 +95,11 @@
 @import url('../styles/sections/intro/__slide-subtitle/intro__slide-subtitle.css');
 @import url('../styles/sections/intro/__slide-title/intro__slide-title.css');
 
+/** team */
+@import url('../styles/sections/team/team.css');
+@import url('../styles/sections/team/__container/team__container.css');
+@import url('../styles/sections/team/__title/team__title.css');
+
 /** video-gallery */
 @import url('../styles/sections/video-gallery/video-gallery.css');
 @import url('../styles/sections/video-gallery/__container/video-gallery__container.css');
@@ -95,7 +110,33 @@
 @import url('../vendor/swiper/swiper.css');
 /* @import url('../vendor/swiper/swiper-button-next.css');
 @import url('../vendor/swiper/swiper-button-prev.css'); */
+@import url('../vendor/swiper/swiper-wrapper.css');
 
+
+
+
+
+
+
+/* .slider-team {
+  margin: 53px 0 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1420px;
+}
+
+.slider-team__wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-team___slide {
+  flex-shrink: 0;
+  flex-grow: 0;
+} */
+
+/*
 .slider-video {
   padding: 100px 0;
 }
@@ -128,7 +169,7 @@
 	transform: scale(1.2);
 	opacity: 1;
 	transition: transform 0.5s;
-}
+} */
 
 
 /** -------------------- PAGE STYLES -------------------- */

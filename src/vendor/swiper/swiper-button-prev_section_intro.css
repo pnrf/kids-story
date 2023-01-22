@@ -1,6 +1,4 @@
-.swiper-button-next {
- position: static;
-
+.swiper-button-prev_section_intro {
   width: 60px;
   height: 60px;
 
@@ -11,11 +9,10 @@
   background-size: 20px 20px; */
 }
 
-.swiper-button-next::after {
-  color: #334155;
-  font-size: 12px;
+.swiper-button-prev_section_intro::after {
+  display: none;
 }
 
-.swiper-button-next:hover {
+.swiper-button-prev_section_intro:hover {
   background-color: #fff;
 }

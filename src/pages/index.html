@@ -75,7 +75,7 @@
     <main class="main">
 
   <!-- intro -->
-      <section class="intro">
+      <!-- <section class="intro">
         <div class="swiper slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -89,10 +89,10 @@
           <div class="link slider__button-next"></div>
           <div class="swiper-scrollbar"></div>
         </div>
-      </section>
+      </section> -->
 
   <!-- video-gallery -->
-  <section class="video-gallery">
+  <!-- <section class="video-gallery">
     <div class="video-gallery__container">
       <h3 class="video-gallery__title">Видеогалерея нашего сада</h3>
       <p class="video-gallery__subtitle">Вы можете ознакомиться как проходят наши будни</p>
@@ -108,26 +108,108 @@
         <div class="swiper-pagination swiper-pag"></div>
       </div>
     </div>
-  </section>
+  </section> -->
 
     <!-- team -->
     <section class="team">
       <div class="team__container">
-        <h3 class="team__title video-gallery__title">Наша команда</h3>
+        <h3 class="team__title">Наша команда</h3>
 
-        <div class="swiper slider slider-video">
-          <div class="swiper-wrapper slider-video">
+        <div class="link slider__button-prev slider__button-prev_section_team"></div>
+        <div class="link slider__button-next slider__button-next_section_team"></div>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper swiper-section-team">
+          <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="team-card">
-                <img class="team-card__image" src="<%=require('../images/team/komarova-darya.jpeg')%>" alt="Фото сотрудника">
-                <p class="team-card__surname">Комарова</p>
-                <p class="team-card__name">Дарья</p>
-                <p class="team-card__position">Педагог по английскому языку</p>
-                <p class="team-card__experience">Стаж 5 лет</p>
+              <div class="slider__card">
+                <img class="slider__card-image" src="<%=require('../images/team/komarova-darya.jpeg')%>" alt="Фото сотрудника">
+                <p class="slider__card-name">Комарова</p>
+                <p class="slider__card-surname">Дарья</p>
+                <p class="slider__card-position">Педагог по английскому языку</p>
+                <p class="slider__card-experience">Стаж 5 лет</p>
               </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="slider__card">
+              <img class="slider__card-image" src="<%=require('../images/team/gorelikova-julia.jpeg')%>" alt="Фото сотрудника">
+              <p class="slider__card-name">Гореликова</p>
+              <p class="slider__card-surname">Юлия</p>
+              <p class="slider__card-position">Педагог-хореограф</p>
+              <p class="slider__card-experience">Стаж 6 лет</p>
             </div>
           </div>
-          <div class="swiper-pagination swiper-pag"></div>
+
+          <div class="swiper-slide">
+            <div class="slider__card">
+              <img class="slider__card-image" src="<%=require('../images/team/sakovich-ekaterina.jpeg')%>" alt="Фото сотрудника">
+              <p class="slider__card-name">Сакович</p>
+              <p class="slider__card-surname">Екатерина</p>
+              <p class="slider__card-position">Логопед</p>
+              <p class="slider__card-experience">Стаж 4 года</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="slider__card">
+              <img class="slider__card-image" src="<%=require('../images/team/fedorova-elena.jpeg')%>" alt="Фото сотрудника">
+              <p class="slider__card-name">Федорова</p>
+              <p class="slider__card-surname">Елена</p>
+              <p class="slider__card-position">Преподаватель изобразительного искусства</p>
+              <p class="slider__card-experience">Стаж 15 лет</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="slider__card">
+              <img class="slider__card-image" src="<%=require('../images/team/farsyan-karina.jpeg')%>" alt="Фото сотрудника">
+              <p class="slider__card-name">Фарсян</p>
+              <p class="slider__card-surname">Карина</p>
+              <p class="slider__card-position">Психолог</p>
+              <p class="slider__card-experience">Стаж 12 лет</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="slider__card">
+              <img class="slider__card-image" src="<%=require('../images/team/akkerman-yuriy.jpg')%>" alt="Фото сотрудника">
+              <p class="slider__card-name">Аккерман</p>
+              <p class="slider__card-surname">Юрий</p>
+              <p class="slider__card-position">Педагог, воспитатель</p>
+              <p class="slider__card-experience">Стаж 4 года</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="slider__card">
+              <img class="slider__card-image" src="<%=require('../images/team/usachev-arthur.jpg')%>" alt="Фото сотрудника">
+              <p class="slider__card-name">Усачев</p>
+              <p class="slider__card-surname">Артур</p>
+              <p class="slider__card-position">Специалист в сфере хореографического искусства</p>
+              <p class="slider__card-experience">Стаж 5 лет</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="slider__card">
+              <img class="slider__card-image" src="<%=require('../images/team/kolosenko-svetlana.jpg')%>" alt="Фото сотрудника">
+              <p class="slider__card-name">Колосенко</p>
+              <p class="slider__card-surname">Светлана</p>
+              <p class="slider__card-position">Воспитатель</p>
+              <p class="slider__card-experience">Стаж 18 лет</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="slider__card">
+              <img class="slider__card-image" src="<%=require('../images/team/russkih-olga.jpeg')%>" alt="Фото сотрудника">
+              <p class="slider__card-name">Русских</p>
+              <p class="slider__card-surname">Ольга</p>
+              <p class="slider__card-position">Тренер каратэ</p>
+              <p class="slider__card-experience">Стаж 5 лет</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

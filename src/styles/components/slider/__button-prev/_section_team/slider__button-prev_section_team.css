@@ -1,0 +1,10 @@
+.slider__button-prev_section_team {
+  bottom: calc(50% + 10px);
+  left: 0px;
+  border: 1px solid #8081BD;
+}
+
+.slider__button-prev_section_team:hover {
+  background-color: #8081BD;
+  background: #8081BD url('../../../../../images/icons/slider-button-arrow-white.svg') 50%/40px 25px no-repeat;
+}
