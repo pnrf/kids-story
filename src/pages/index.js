@@ -5,7 +5,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // ------------ swiper ------------
-const swiper = new Swiper('.swiper', {
+const slider = document.querySelector('.swiper');
+const videoGallery = document.querySelector('.slider-video');
+
+const swiper = new Swiper(slider, {
   modules: [Navigation, Pagination],
 
   direction: 'horizontal',
@@ -22,6 +25,23 @@ const swiper = new Swiper('.swiper', {
 
   scrollbar: {
     el: '.swiper-scrollbar',
+  },
+});
+
+const sliderVideo = new Swiper(videoGallery, {
+	slidesPerView: 3,
+	spaceBetween: 10,
+	centeredSlides: true,
+
+  modules: [Pagination],
+
+  direction: 'horizontal',
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pag',
+    type: 'bullets',
+    clickable: true,
   },
 });
 

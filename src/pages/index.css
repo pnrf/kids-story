@@ -39,6 +39,7 @@
 @import url('../styles/components/navigation/__icon-arrow/navigation__icon-arrow.css');
 @import url('../styles/components/navigation/__item/navigation__item.css');
 @import url('../styles/components/navigation/__item/_hovered/navigation__item_hovered.css');
+@import url('../styles/components/navigation/__item/_size_width/navigation__item_size_width.css');
 @import url('../styles/components/navigation/__list/navigation__list.css');
 @import url('../styles/components/navigation/__subitem/navigation__subitem.css');
 
@@ -84,10 +85,50 @@
 @import url('../styles/sections/intro/__slide-subtitle/intro__slide-subtitle.css');
 @import url('../styles/sections/intro/__slide-title/intro__slide-title.css');
 
+/** video-gallery */
+@import url('../styles/sections/video-gallery/video-gallery.css');
+@import url('../styles/sections/video-gallery/__container/video-gallery__container.css');
+@import url('../styles/sections/video-gallery/__subtitle/video-gallery__subtitle.css');
+@import url('../styles/sections/video-gallery/__title/video-gallery__title.css');
+
 /** swiper */
 @import url('../vendor/swiper/swiper.css');
 /* @import url('../vendor/swiper/swiper-button-next.css');
 @import url('../vendor/swiper/swiper-button-prev.css'); */
+
+.slider-video {
+  padding: 100px 0;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-pagination-bullet {
+	width: 14px;
+	height: 14px;
+	margin: 0 15px;
+	background-color: #FDDC4E;
+	opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #EA5D4A;
+}
+
+.swiper-slide {
+	opacity: 0.5;
+	transition: transform 0.5s;
+}
+
+.swiper-slide-active {
+	transform: scale(1.2);
+	opacity: 1;
+	transition: transform 0.5s;
+}
 
 
 /** -------------------- PAGE STYLES -------------------- */

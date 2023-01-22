@@ -1,8 +1,10 @@
 .navigation__subitem {
   padding-bottom: 5px;
-  display: block;
-  max-width: 50px;
-  overflow: visible;
+  width: inherit;
+  white-space: normal;
+  /* display: block; */
+  /* max-width: 50px; */
+  /* overflow: visible; */
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
