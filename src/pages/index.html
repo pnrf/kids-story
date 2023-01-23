@@ -71,12 +71,14 @@
       </div>
     </header>
 
-<!-- main -->
+    <!-- main -->
     <main class="main">
 
-  <!-- intro -->
-      <!-- <section class="intro">
-        <div class="swiper slider">
+      <!-- intro -->
+      <section class="intro">
+        <div class="link slider__button-prev slider__button-prev_section_intro"></div>
+        <div class="link slider__button-next slider__button-next_section_intro"></div>
+        <div class="swiper swiper-section-intro">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <h1 class="intro__slide-title">Kidsstory</h1>
@@ -85,218 +87,213 @@
             </div>
             <div class="swiper-slide"><img src="<%=require('../images/boy-n-girl.png')%>" alt="Детский сад Kids Story. Картинка с детьми"></div>
           </div>
-          <div class="link slider__button-prev"></div>
-          <div class="link slider__button-next"></div>
-          <div class="swiper-scrollbar"></div>
+        </div>
+      </section>
+
+      <!-- video-gallery -->
+      <!-- <section class="video-gallery">
+        <div class="video-gallery__container">
+          <h3 class="video-gallery__title">Видеогалерея нашего сада</h3>
+          <p class="video-gallery__subtitle">Вы можете ознакомиться как проходят наши будни</p>
+          <div class="swiper-pagination"></div>
+          <div class="swiper swiper-section-video">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/AtYQFfiV_34?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/Xh-973JTckY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/xwt20xE7ky0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZYw4GzpOsko?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/lM94uaYhJAA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            </div>
+          </div>
         </div>
       </section> -->
 
-  <!-- video-gallery -->
-  <!-- <section class="video-gallery">
-    <div class="video-gallery__container">
-      <h3 class="video-gallery__title">Видеогалерея нашего сада</h3>
-      <p class="video-gallery__subtitle">Вы можете ознакомиться как проходят наши будни</p>
+      <!-- team -->
+      <section class="team">
+        <div class="team__container">
+          <h3 class="team__title">Наша команда</h3>
+          <div class="link slider__button-prev slider__button-prev_section_team"></div>
+          <div class="link slider__button-next slider__button-next_section_team"></div>
+          <div class="swiper swiper-section-team">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slider__card">
+                  <img class="slider__card-image" src="<%=require('../images/team/komarova-darya.jpeg')%>" alt="Фото сотрудника">
+                  <p class="slider__card-name">Комарова</p>
+                  <p class="slider__card-surname">Дарья</p>
+                  <p class="slider__card-position">Педагог по английскому языку</p>
+                  <p class="slider__card-experience">Стаж 5 лет</p>
+                </div>
+            </div>
 
-      <div class="swiper slider slider-video">
-        <div class="swiper-wrapper slider-video">
-          <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/AtYQFfiV_34?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-          <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/Xh-973JTckY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-          <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/xwt20xE7ky0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-          <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZYw4GzpOsko?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-          <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/lM94uaYhJAA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-        </div>
-        <div class="swiper-pagination swiper-pag"></div>
-      </div>
-    </div>
-  </section> -->
-
-    <!-- team -->
-    <!-- <section class="team">
-      <div class="team__container">
-        <h3 class="team__title">Наша команда</h3>
-        <div class="link slider__button-prev slider__button-prev_section_team"></div>
-        <div class="link slider__button-next slider__button-next_section_team"></div>
-        <div class="swiper swiper-section-team">
-          <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="slider__card">
-                <img class="slider__card-image" src="<%=require('../images/team/komarova-darya.jpeg')%>" alt="Фото сотрудника">
-                <p class="slider__card-name">Комарова</p>
-                <p class="slider__card-surname">Дарья</p>
-                <p class="slider__card-position">Педагог по английскому языку</p>
+                <img class="slider__card-image" src="<%=require('../images/team/gorelikova-julia.jpeg')%>" alt="Фото сотрудника">
+                <p class="slider__card-name">Гореликова</p>
+                <p class="slider__card-surname">Юлия</p>
+                <p class="slider__card-position">Педагог-хореограф</p>
+                <p class="slider__card-experience">Стаж 6 лет</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="slider__card">
+                <img class="slider__card-image" src="<%=require('../images/team/sakovich-ekaterina.jpeg')%>" alt="Фото сотрудника">
+                <p class="slider__card-name">Сакович</p>
+                <p class="slider__card-surname">Екатерина</p>
+                <p class="slider__card-position">Логопед</p>
+                <p class="slider__card-experience">Стаж 4 года</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="slider__card">
+                <img class="slider__card-image" src="<%=require('../images/team/fedorova-elena.jpeg')%>" alt="Фото сотрудника">
+                <p class="slider__card-name">Федорова</p>
+                <p class="slider__card-surname">Елена</p>
+                <p class="slider__card-position">Преподаватель изобразительного искусства</p>
+                <p class="slider__card-experience">Стаж 15 лет</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="slider__card">
+                <img class="slider__card-image" src="<%=require('../images/team/farsyan-karina.jpeg')%>" alt="Фото сотрудника">
+                <p class="slider__card-name">Фарсян</p>
+                <p class="slider__card-surname">Карина</p>
+                <p class="slider__card-position">Психолог</p>
+                <p class="slider__card-experience">Стаж 12 лет</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="slider__card">
+                <img class="slider__card-image" src="<%=require('../images/team/akkerman-yuriy.jpg')%>" alt="Фото сотрудника">
+                <p class="slider__card-name">Аккерман</p>
+                <p class="slider__card-surname">Юрий</p>
+                <p class="slider__card-position">Педагог, воспитатель</p>
+                <p class="slider__card-experience">Стаж 4 года</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="slider__card">
+                <img class="slider__card-image" src="<%=require('../images/team/usachev-arthur.jpg')%>" alt="Фото сотрудника">
+                <p class="slider__card-name">Усачев</p>
+                <p class="slider__card-surname">Артур</p>
+                <p class="slider__card-position">Специалист в сфере хореографического искусства</p>
                 <p class="slider__card-experience">Стаж 5 лет</p>
               </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="slider__card">
-              <img class="slider__card-image" src="<%=require('../images/team/gorelikova-julia.jpeg')%>" alt="Фото сотрудника">
-              <p class="slider__card-name">Гореликова</p>
-              <p class="slider__card-surname">Юлия</p>
-              <p class="slider__card-position">Педагог-хореограф</p>
-              <p class="slider__card-experience">Стаж 6 лет</p>
             </div>
-          </div>
 
-          <div class="swiper-slide">
-            <div class="slider__card">
-              <img class="slider__card-image" src="<%=require('../images/team/sakovich-ekaterina.jpeg')%>" alt="Фото сотрудника">
-              <p class="slider__card-name">Сакович</p>
-              <p class="slider__card-surname">Екатерина</p>
-              <p class="slider__card-position">Логопед</p>
-              <p class="slider__card-experience">Стаж 4 года</p>
+            <div class="swiper-slide">
+              <div class="slider__card">
+                <img class="slider__card-image" src="<%=require('../images/team/kolosenko-svetlana.jpg')%>" alt="Фото сотрудника">
+                <p class="slider__card-name">Колосенко</p>
+                <p class="slider__card-surname">Светлана</p>
+                <p class="slider__card-position">Воспитатель</p>
+                <p class="slider__card-experience">Стаж 18 лет</p>
+              </div>
             </div>
-          </div>
 
-          <div class="swiper-slide">
-            <div class="slider__card">
-              <img class="slider__card-image" src="<%=require('../images/team/fedorova-elena.jpeg')%>" alt="Фото сотрудника">
-              <p class="slider__card-name">Федорова</p>
-              <p class="slider__card-surname">Елена</p>
-              <p class="slider__card-position">Преподаватель изобразительного искусства</p>
-              <p class="slider__card-experience">Стаж 15 лет</p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="slider__card">
-              <img class="slider__card-image" src="<%=require('../images/team/farsyan-karina.jpeg')%>" alt="Фото сотрудника">
-              <p class="slider__card-name">Фарсян</p>
-              <p class="slider__card-surname">Карина</p>
-              <p class="slider__card-position">Психолог</p>
-              <p class="slider__card-experience">Стаж 12 лет</p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="slider__card">
-              <img class="slider__card-image" src="<%=require('../images/team/akkerman-yuriy.jpg')%>" alt="Фото сотрудника">
-              <p class="slider__card-name">Аккерман</p>
-              <p class="slider__card-surname">Юрий</p>
-              <p class="slider__card-position">Педагог, воспитатель</p>
-              <p class="slider__card-experience">Стаж 4 года</p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="slider__card">
-              <img class="slider__card-image" src="<%=require('../images/team/usachev-arthur.jpg')%>" alt="Фото сотрудника">
-              <p class="slider__card-name">Усачев</p>
-              <p class="slider__card-surname">Артур</p>
-              <p class="slider__card-position">Специалист в сфере хореографического искусства</p>
-              <p class="slider__card-experience">Стаж 5 лет</p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="slider__card">
-              <img class="slider__card-image" src="<%=require('../images/team/kolosenko-svetlana.jpg')%>" alt="Фото сотрудника">
-              <p class="slider__card-name">Колосенко</p>
-              <p class="slider__card-surname">Светлана</p>
-              <p class="slider__card-position">Воспитатель</p>
-              <p class="slider__card-experience">Стаж 18 лет</p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="slider__card">
-              <img class="slider__card-image" src="<%=require('../images/team/russkih-olga.jpeg')%>" alt="Фото сотрудника">
-              <p class="slider__card-name">Русских</p>
-              <p class="slider__card-surname">Ольга</p>
-              <p class="slider__card-position">Тренер каратэ</p>
-              <p class="slider__card-experience">Стаж 5 лет</p>
+            <div class="swiper-slide">
+              <div class="slider__card">
+                <img class="slider__card-image" src="<%=require('../images/team/russkih-olga.jpeg')%>" alt="Фото сотрудника">
+                <p class="slider__card-name">Русских</p>
+                <p class="slider__card-surname">Ольга</p>
+                <p class="slider__card-position">Тренер каратэ</p>
+                <p class="slider__card-experience">Стаж 5 лет</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section> -->
+      </section>
 
-        <!-- reviews -->
-        <section class="reviews">
-          <div class="reviews__container">
-            <h3 class="reviews__title">Отзывы о саде</h3>
-            <div class="link slider__button-prev slider__button-prev_section_reviews"></div>
-            <div class="link slider__button-next slider__button-next_section_reviews"></div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper swiper-section-reviews">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="slider__card slider__card_section_reviews">
-                    <div class="slider__card-wrapper">
-                      <div class="slider__card-user">
-                        <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
-                        <div class="slider__card-user-info">
-                          <p class="slider__card-user-name">Татьяна К.</p>
-                          <p class="slider__card-user-location">Красногорск</p>
-                        </div>
+      <!-- reviews -->
+      <section class="reviews">
+        <div class="reviews__container">
+          <h3 class="reviews__title">Отзывы о саде</h3>
+          <div class="link slider__button-prev slider__button-prev_section_reviews"></div>
+          <div class="link slider__button-next slider__button-next_section_reviews"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper swiper-section-reviews">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slider__card slider__card_section_reviews">
+                  <div class="slider__card-wrapper">
+                    <div class="slider__card-user">
+                      <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
+                      <div class="slider__card-user-info">
+                        <p class="slider__card-user-name">Татьяна К.</p>
+                        <p class="slider__card-user-location">Красногорск</p>
                       </div>
-                      <p class="slider__card-review">
-                        Классный сад! Ремонт сделан с вниманием к деталям, новые, интересные игрушки — мой внутренний эстет
-                        каждый раз ликует, приходя сюда. Малышки с радостью ходят на доп.занятия (английский, соляная пещера, хореография)
-                      </p>
                     </div>
-                    <a href="#" class="link slider__card-link">Прочитать отзыв</a>
+                    <p class="slider__card-review">
+                      Классный сад! Ремонт сделан с вниманием к деталям, новые, интересные игрушки — мой внутренний эстет
+                      каждый раз ликует, приходя сюда. Малышки с радостью ходят на доп.занятия (английский, соляная пещера, хореография)
+                    </p>
                   </div>
+                  <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                 </div>
+              </div>
 
-                <div class="swiper-slide">
-                  <div class="slider__card slider__card_section_reviews">
-                    <div class="slider__card-wrapper">
-                      <div class="slider__card-user">
-                        <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
-                        <div class="slider__card-user-info">
-                          <p class="slider__card-user-name">Юлечка А.</p>
-                          <p class="slider__card-user-location">Красногорск</p>
-                        </div>
+              <div class="swiper-slide">
+                <div class="slider__card slider__card_section_reviews">
+                  <div class="slider__card-wrapper">
+                    <div class="slider__card-user">
+                      <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
+                      <div class="slider__card-user-info">
+                        <p class="slider__card-user-name">Юлечка А.</p>
+                        <p class="slider__card-user-location">Красногорск</p>
                       </div>
-                      <p class="slider__card-review">
-                        Новый детский сад! Профессиональный коллектив! Компетентные родители! Огромный спектр дополнительных услуг
-                      </p>
                     </div>
-                    <a href="#" class="link slider__card-link">Прочитать отзыв</a>
+                    <p class="slider__card-review">
+                      Новый детский сад! Профессиональный коллектив! Компетентные родители! Огромный спектр дополнительных услуг
+                    </p>
                   </div>
+                  <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                 </div>
+              </div>
 
-                <div class="swiper-slide">
-                  <div class="slider__card slider__card_section_reviews">
-                    <div class="slider__card-wrapper">
-                      <div class="slider__card-user">
-                        <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
-                        <div class="slider__card-user-info">
-                          <p class="slider__card-user-name">Роман Т.</p>
-                          <p class="slider__card-user-location">Москва</p>
-                        </div>
+              <div class="swiper-slide">
+                <div class="slider__card slider__card_section_reviews">
+                  <div class="slider__card-wrapper">
+                    <div class="slider__card-user">
+                      <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
+                      <div class="slider__card-user-info">
+                        <p class="slider__card-user-name">Роман Т.</p>
+                        <p class="slider__card-user-location">Москва</p>
                       </div>
-                      <p class="slider__card-review">
-                        Прекрасный детский сад! Ходим с открытия! Видели даже секция каратэ ечть. Ходили на пробное занятие, будем записываться! Все новое и чистое. Отличный ремонт. Все няни добрые.
-                      </p>
                     </div>
-                    <a href="#" class="link slider__card-link">Прочитать отзыв</a>
+                    <p class="slider__card-review">
+                      Прекрасный детский сад! Ходим с открытия! Видели даже секция каратэ ечть. Ходили на пробное занятие, будем записываться! Все новое и чистое. Отличный ремонт. Все няни добрые.
+                    </p>
                   </div>
+                  <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                 </div>
+              </div>
 
-                <div class="swiper-slide">
-                  <div class="slider__card slider__card_section_reviews">
-                    <div class="slider__card-wrapper">
-                      <div class="slider__card-user">
-                        <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
-                        <div class="slider__card-user-info">
-                          <p class="slider__card-user-name">Мария У.</p>
-                          <p class="slider__card-user-location">Москва</p>
-                        </div>
+              <div class="swiper-slide">
+                <div class="slider__card slider__card_section_reviews">
+                  <div class="slider__card-wrapper">
+                    <div class="slider__card-user">
+                      <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
+                      <div class="slider__card-user-info">
+                        <p class="slider__card-user-name">Мария У.</p>
+                        <p class="slider__card-user-location">Москва</p>
                       </div>
-                      <p class="slider__card-review">
-                        Могу сказать, что этот детский сад недавно открыли, и я в восторге от него. Здесь применяется индивидуальный подход к каждому ребенку.
-                      </p>
                     </div>
-                    <a href="#" class="link slider__card-link">Прочитать отзыв</a>
+                    <p class="slider__card-review">
+                      Могу сказать, что этот детский сад недавно открыли, и я в восторге от него. Здесь применяется индивидуальный подход к каждому ребенку.
+                    </p>
                   </div>
+                  <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-
+        </div>
+      </section>
     </main>
 
   <!-- advantages -->
@@ -310,7 +307,7 @@
   <!-- map -->
 
 
-<!-- footer -->
+    <!-- footer -->
     <footer class="footer">
       <div class="footer__container">
         <a class="link" href="/">

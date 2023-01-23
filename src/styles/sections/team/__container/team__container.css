@@ -1,4 +1,5 @@
 .team__container {
+  margin: 0 auto;
   width: 1420px;
   position: relative;
 }

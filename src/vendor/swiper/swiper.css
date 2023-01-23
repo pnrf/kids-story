@@ -5,11 +5,17 @@
 } */
 
 .swiper {
-  width: calc(100% - 190px);
+  /* width: calc(100% - 190px); */
   height: 100%;
   margin: 53px 0 20px;
   padding-bottom: 22px;
 }
+
+/* .swiper .swiper-section-reviews,
+.swiper .swiper-section-team {
+  display: flex;
+  flex-direction: column;
+} */
 
 .swiper-wrapper {
   padding-bottom: 22px;
@@ -30,7 +36,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  /* background: #fff; */
 
   /* Center slide text vertically */
   display: -webkit-box;

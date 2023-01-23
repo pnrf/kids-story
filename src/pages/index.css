@@ -127,14 +127,13 @@
 @import url('../vendor/swiper/swiper-button-prev.css'); */
 @import url('../vendor/swiper/swiper-wrapper.css');
 
-
-.swiper .swiper-section-reviews {
-  display: flex;
-  flex-direction: column;
+.swiper-section-reviews {
+  width: 85%;
 }
 
-
-
+.swiper-section-team {
+  width: 85%;
+}
 
 /* .slider-team {
   margin: 53px 0 0;

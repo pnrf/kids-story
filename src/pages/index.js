@@ -4,61 +4,43 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-// ------------ swiper ------------
-// const slider = document.querySelector('.swiper');
-// const videoGallery = document.querySelector('.slider-video');
-// const sliderTeamClass = document.querySelector('.slider-team');
+// ------------ swiper (slider)------------
 
-// const swiper = new Swiper(slider, {
-//   modules: [Navigation, Pagination],
+const swiperSectionIntro = new Swiper(".swiper-section-intro", {
+  modules: [Navigation],
 
-//   direction: 'horizontal',
-//   loop: true,
+  direction: 'horizontal',
+  loop: true,
 
-//   pagination: {
-//     el: '.swiper-pagination',
-//   },
+  navigation: {
+    nextEl: '.slider__button-next_section_intro',
+    prevEl: '.slider__button-prev_section_intro',
+  },
+});
 
-//   navigation: {
-    // nextEl: '.slider__button-next',
-    // prevEl: '.slider__button-prev',
-//   },
+const swiperSectionVideo = new Swiper(".swiper-section-video", {
+  modules: [Pagination],
 
-//   scrollbar: {
-//     el: '.swiper-scrollbar',
-//   },
-// });
+  slidesPerView: 3,
+	spaceBetween: 10,
+	centeredSlides: true,
+  loop: true,
 
-// const sliderVideo = new Swiper(videoGallery, {
-// 	slidesPerView: 3,
-// 	spaceBetween: 10,
-// 	centeredSlides: true,
-
-//   modules: [Pagination],
-
-//   direction: 'horizontal',
-//   loop: true,
-
-//   pagination: {
-//     el: '.swiper-pag',
-//     type: 'bullets',
-//     clickable: true,
-//   },
-// });
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+});
 
 const swiperSectionTeam = new Swiper(".swiper-section-team", {
   modules: [Navigation],
+
   slidesPerView: 4,
 	spaceBetween: 32,
   slidesPerGroup: 4,
   loop: true,
   loopFillGroupWithBlank: true,
-
-  // pagination: {
-  //   el: ".swiper-pagination",
-  //   type: 'bullets',
-  //   clickable: true,
-  // },
 
   navigation: {
     nextEl: '.slider__button-next_section_team',
@@ -68,24 +50,24 @@ const swiperSectionTeam = new Swiper(".swiper-section-team", {
 
 const swiperSectionReviews = new Swiper(".swiper-section-reviews", {
   modules: [Navigation, Pagination],
+
   slidesPerView: 2,
 	spaceBetween: 32,
   slidesPerGroup: 2,
   loop: true,
   loopFillGroupWithBlank: true,
 
+  navigation: {
+    nextEl: '.slider__button-next_section_reviews',
+    prevEl: '.slider__button-prev_section_reviews',
+  },
+
   pagination: {
     el: ".swiper-pagination",
     type: 'bullets',
     clickable: true,
   },
-
-  navigation: {
-    nextEl: '.slider__button-next_section_reviews',
-    prevEl: '.slider__button-prev_section_reviews',
-  },
 });
-
 
 // ------------ dropdown mobile menu ------------
 
