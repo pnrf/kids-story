@@ -47,16 +47,26 @@
 /* @import url('../styles/components/slider/slider.css'); */
 
 @import url('../styles/components/slider/__button-next/slider__button-next.css');
+@import url('../styles/components/slider/__button-next/_section_reviews/slider__button-next_section_reviews.css');
 @import url('../styles/components/slider/__button-next/_section_team/slider__button-next_section_team.css');
 @import url('../styles/components/slider/__button-prev/slider__button-prev.css');
+@import url('../styles/components/slider/__button-prev/_section_reviews/slider__button-prev_section_reviews.css');
 @import url('../styles/components/slider/__button-prev/_section_team/slider__button-prev_section_team.css');
-
 @import url('../styles/components/slider/__card/slider__card.css');
+@import url('../styles/components/slider/__card/_section_reviews/slider__card_section_reviews.css');
 @import url('../styles/components/slider/__card-experience/slider__card-experience.css');
 @import url('../styles/components/slider/__card-image/slider__card-image.css');
+@import url('../styles/components/slider/__card-link/slider__card-link.css');
 @import url('../styles/components/slider/__card-name/slider__card-name.css');
 @import url('../styles/components/slider/__card-position/slider__card-position.css');
+@import url('../styles/components/slider/__card-review/slider__card-review.css');
 @import url('../styles/components/slider/__card-surname/slider__card-surname.css');
+@import url('../styles/components/slider/__card-user/slider__card-user.css');
+@import url('../styles/components/slider/__card-user-icon/slider__card-user-icon.css');
+@import url('../styles/components/slider/__card-user-info/slider__card-user-info.css');
+@import url('../styles/components/slider/__card-user-location/slider__card-user-location.css');
+@import url('../styles/components/slider/__card-user-name/slider__card-user-name.css');
+@import url('../styles/components/slider/__card-wrapper/slider__card-wrapper.css');
 
 /** socials */
 @import url('../styles/components/socials/socials.css');
@@ -95,6 +105,11 @@
 @import url('../styles/sections/intro/__slide-subtitle/intro__slide-subtitle.css');
 @import url('../styles/sections/intro/__slide-title/intro__slide-title.css');
 
+/** reviews */
+@import url('../styles/sections/reviews/reviews.css');
+@import url('../styles/sections/reviews/__container/reviews__container.css');
+@import url('../styles/sections/reviews/__title/reviews__title.css');
+
 /** team */
 @import url('../styles/sections/team/team.css');
 @import url('../styles/sections/team/__container/team__container.css');
@@ -113,7 +128,10 @@
 @import url('../vendor/swiper/swiper-wrapper.css');
 
 
-
+.swiper .swiper-section-reviews {
+  display: flex;
+  flex-direction: column;
+}
 
 
 

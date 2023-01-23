@@ -1,0 +1,10 @@
+.slider__card_section_reviews {
+  padding: 35px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 247px;
+  width: 594px;
+  background-color: #fff;
+  border-radius: 20px;
+}

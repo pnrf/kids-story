@@ -47,10 +47,30 @@ import 'swiper/css/pagination';
 // });
 
 const swiperSectionTeam = new Swiper(".swiper-section-team", {
-  modules: [Navigation, Pagination],
+  modules: [Navigation],
   slidesPerView: 4,
 	spaceBetween: 32,
   slidesPerGroup: 4,
+  loop: true,
+  loopFillGroupWithBlank: true,
+
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   type: 'bullets',
+  //   clickable: true,
+  // },
+
+  navigation: {
+    nextEl: '.slider__button-next_section_team',
+    prevEl: '.slider__button-prev_section_team',
+  },
+});
+
+const swiperSectionReviews = new Swiper(".swiper-section-reviews", {
+  modules: [Navigation, Pagination],
+  slidesPerView: 2,
+	spaceBetween: 32,
+  slidesPerGroup: 2,
   loop: true,
   loopFillGroupWithBlank: true,
 
@@ -61,13 +81,11 @@ const swiperSectionTeam = new Swiper(".swiper-section-team", {
   },
 
   navigation: {
-    nextEl: '.slider__button-next_section_team',
-    prevEl: '.slider__button-prev_section_team',
+    nextEl: '.slider__button-next_section_reviews',
+    prevEl: '.slider__button-prev_section_reviews',
   },
 });
 
-// const swiper = document.querySelector('.swiper').swiper;
-// swiper.slideNext(1000, true);
 
 // ------------ dropdown mobile menu ------------
 

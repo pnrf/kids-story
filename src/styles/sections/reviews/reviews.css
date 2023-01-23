@@ -1,0 +1,9 @@
+.reviews {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #F2F2FF;
+  border-radius: 20px;
+}
