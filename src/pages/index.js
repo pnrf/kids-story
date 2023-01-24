@@ -11,6 +11,7 @@ const swiperSectionIntro = new Swiper(".swiper-section-intro", {
 
   direction: 'horizontal',
   loop: true,
+  loopFillGroupWithBlank: true,
 
   navigation: {
     nextEl: '.slider__button-next_section_intro',
@@ -25,9 +26,10 @@ const swiperSectionVideo = new Swiper(".swiper-section-video", {
 	spaceBetween: 10,
 	centeredSlides: true,
   loop: true,
+  loopFillGroupWithBlank: true,
 
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination_section_video',
     type: 'bullets',
     clickable: true,
   },
@@ -63,7 +65,7 @@ const swiperSectionReviews = new Swiper(".swiper-section-reviews", {
   },
 
   pagination: {
-    el: ".swiper-pagination",
+    el: ".swiper-pagination-section-reviews",
     type: 'bullets',
     clickable: true,
   },

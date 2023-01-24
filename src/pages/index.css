@@ -123,70 +123,7 @@
 
 /** swiper */
 @import url('../vendor/swiper/swiper.css');
-/* @import url('../vendor/swiper/swiper-button-next.css');
-@import url('../vendor/swiper/swiper-button-prev.css'); */
-@import url('../vendor/swiper/swiper-wrapper.css');
 
-.swiper-section-reviews {
-  width: 85%;
-}
-
-.swiper-section-team {
-  width: 85%;
-}
-
-/* .slider-team {
-  margin: 53px 0 0;
-  overflow: hidden;
-  width: 100%;
-  max-width: 1420px;
-}
-
-.slider-team__wrapper {
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
-
-.slider-team___slide {
-  flex-shrink: 0;
-  flex-grow: 0;
-} */
-
-/*
-.slider-video {
-  padding: 100px 0;
-}
-
-.swiper-button-prev,
-.swiper-button-next,
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  display: none;
-}
-
-.swiper-pagination-bullet {
-	width: 14px;
-	height: 14px;
-	margin: 0 15px;
-	background-color: #FDDC4E;
-	opacity: 1;
-}
-
-.swiper-pagination-bullet-active {
-	background-color: #EA5D4A;
-}
-
-.swiper-slide {
-	opacity: 0.5;
-	transition: transform 0.5s;
-}
-
-.swiper-slide-active {
-	transform: scale(1.2);
-	opacity: 1;
-	transition: transform 0.5s;
-} */
 
 
 /** -------------------- PAGE STYLES -------------------- */
