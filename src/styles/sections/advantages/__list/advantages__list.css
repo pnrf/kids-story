@@ -1,0 +1,9 @@
+.advantages__list {
+  margin: 0 auto;
+  max-width: 1430px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}

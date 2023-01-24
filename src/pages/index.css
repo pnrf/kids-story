@@ -76,6 +76,15 @@
 
 /** -------------------- SECTION STYLES -------------------- */
 
+/** advantages */
+@import url('../styles/sections/advantages/advantages.css');
+@import url('../styles/sections/advantages/__container/advantages__container.css');
+@import url('../styles/sections/advantages/__item/advantages__item.css');
+@import url('../styles/sections/advantages/__list/advantages__list.css');
+@import url('../styles/sections/advantages/__pic/advantages__pic.css');
+@import url('../styles/sections/advantages/__text/advantages__text.css');
+@import url('../styles/sections/advantages/__text/_style_highlighted/advantages__text_style_highlighted.css');
+
 /** footer  */
 @import url('../styles/sections/footer/footer.css');
 @import url('../styles/sections/footer/__address/footer__address.css');
