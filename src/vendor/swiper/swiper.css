@@ -6,7 +6,7 @@
 }
 
 .swiper-wrapper {
-  padding: 22px 0;
+  padding: 36px 0;
 }
 
 .swiper-button-prev::after,
@@ -44,12 +44,15 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .swiper-section-video .swiper-slide {
 	opacity: 0.5;
 	transition: transform 0.5s;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 .swiper-section-video .swiper-slide-active {

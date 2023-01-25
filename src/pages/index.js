@@ -48,6 +48,20 @@ const swiperSectionTeam = new Swiper(".swiper-section-team", {
     nextEl: '.slider__button-next_section_team',
     prevEl: '.slider__button-prev_section_team',
   },
+
+  // breakpoints: {
+  //   320: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 10,
+  //     slidesPerGroup: 1,
+  //   },
+
+  //   678: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 20,
+  //     slidesPerGroup: 2,
+  //   }
+  // }
 });
 
 const swiperSectionReviews = new Swiper(".swiper-section-reviews", {

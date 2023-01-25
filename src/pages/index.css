@@ -114,6 +114,9 @@
 @import url('../styles/sections/intro/__slide-subtitle/intro__slide-subtitle.css');
 @import url('../styles/sections/intro/__slide-title/intro__slide-title.css');
 
+/** map */
+@import url('../styles/sections/map/map.css');
+
 /** reviews */
 @import url('../styles/sections/reviews/reviews.css');
 @import url('../styles/sections/reviews/__container/reviews__container.css');
