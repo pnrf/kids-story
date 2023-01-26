@@ -114,6 +114,9 @@
 @import url('../styles/sections/intro/__slide-subtitle/intro__slide-subtitle.css');
 @import url('../styles/sections/intro/__slide-title/intro__slide-title.css');
 
+/** main */
+@import url('../styles/sections/main/main.css');
+
 /** map */
 @import url('../styles/sections/map/map.css');
 
@@ -142,6 +145,84 @@
 
 @import url('../styles/pages/root/root.css');
 @import url('../styles/pages/page/page.css');
+
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.section__container {
+  position: relative;
+  margin: 0 auto;
+  padding: 68px 0 79px;
+  max-width: 1804px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.section__wrapper {
+  margin: 0 auto;
+  max-width: 1420px;
+  width: 100%;
+}
+
+.section__title {
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.section__subtitle {
+  margin: 24px 0 44px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.form {}
+
+.form__background {
+  position: relative;
+  background-image: url('../images/bgr-elements/bgr-boy-01.png'), url('../images/bgr-elements/bgr-abstract-elements-01.svg');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #8081bd;
+  overflow: visible;
+}
+
+.form__background::after {
+  content: "";
+  background: 0/contain no-repeat url('../images/bgr-elements/bgr-boy-01.png');
+  z-index: 10;
+}
+
+.form__container {}
+
+.form__label {
+  color: #fff;
+}
+
+.form__input {}
+
+.form__input_invalid {}
+
+.form__input_type_checkbox {}
+
+.form__input_checked {}
+
+.form__validator-message {}
+
+
+
 
 
 

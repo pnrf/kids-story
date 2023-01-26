@@ -64,9 +64,9 @@
             <li class="socials__item"><a class="link socials__link" href="#"><img class="socials__image" src="<%=require('../images/icons/icon-whats-app.svg')%>" alt="Иконка мессенджера Ватсап"></a></li>
           </ul>
 
-          <button class="button button_type_submit header__button">Записаться на экскурсию</button>
+          <button class="button button_type_submit header__button" type="submit">Записаться на экскурсию</button>
 
-          <button class="button button_type_burger"></button>
+          <button class="button button_type_burger" type="button"></button>
         </div>
       </div>
     </header>
@@ -130,6 +130,26 @@
             <p class="advantages__text"><span class="advantages__text_style_highlighted">Питание:</span> 5-разовое, с учетом индивидуальных особенностей ребенка</p>
           </li>
         </ul>
+      </section>
+
+      <!-- form -->
+      <section class="section form">
+        <div class="section__container form__background">
+          <div class="section__wrapper">
+            <h3 class="section__title">Есть вопросы? Получите бесплатную консультацию</h3>
+            <p class="section__subtitle">Оставьте телефон и мы перезвоним и расскажем все подробности о филиале</p>
+            <form class="form__container">
+              <label class="form__label">
+                <input type="tel" class="form__input form__input_invalid" placeholder="+ 7 _ _ _ - _ _ - _ _" required>
+              </label>
+              <label class="form__label"> Я принимаю условия пользовательского соглашения
+                <input type="checkbox" class="form__input form__input_type_checkbox form__input_checked" required>
+              </label>
+              <button class="button button_type_submit" type="submit">отправить</button>
+              <span class="form__validator-message"></span>
+            </form>
+          </div>
+        </div>
       </section>
 
 
@@ -530,7 +550,7 @@
 
             <div class="email footer__email">dir@kidsstory.life</div>
 
-            <button class="button button_type_submit footer__button">Меню сайта</button>
+            <button class="button button_type_submit footer__button" type="button">Меню сайта</button>
 
             <div class="address footer__address">
               <a class="link" href="#">Москва, ул. Муравская д.38, к.1</a>
