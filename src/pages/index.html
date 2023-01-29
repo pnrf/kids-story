@@ -133,22 +133,26 @@
       </section>
 
       <!-- form -->
-      <section class="section form">
-        <div class="section__container form__background">
+      <section class="section">
+        <div class="section__container">
           <div class="section__wrapper">
-            <h3 class="section__title">Есть вопросы? Получите бесплатную консультацию</h3>
+            <h2 class="section__title">Есть вопросы? Получите бесплатную консультацию</h2>
             <p class="section__subtitle">Оставьте телефон и мы перезвоним и расскажем все подробности о филиале</p>
-            <form class="form__container">
-              <label class="form__label">
-                <input type="tel" class="form__input form__input_invalid" placeholder="+ 7 _ _ _ - _ _ - _ _" required>
-              </label>
-              <label class="form__label"> Я принимаю условия пользовательского соглашения
-                <input type="checkbox" class="form__input form__input_type_checkbox form__input_checked" required>
-              </label>
-              <button class="button button_type_submit" type="submit">отправить</button>
+            <form class="form">
+              <fieldset class="form__fieldset">
+                <label class="form__label">
+                  <input type="tel" class="form__input form__input_style_text form__input_invalid" placeholder="+ 7 _ _ _ - _ _ - _ _" required>
+                </label>
+                <label class="form__label form__label_type_user-consent">
+                  Я принимаю условия пользовательского соглашения
+                  <input type="checkbox" value="phone" class="form__input form__input_style_radio form__input_checked" required>
+                </label>
+              </fieldset>
+              <button class="button button_type_submit button_style_form" type="submit">отправить</button>
               <span class="form__validator-message"></span>
             </form>
           </div>
+          <div class="section__background"></div>
         </div>
       </section>
 
@@ -414,6 +418,30 @@
           </div>
         </div>
       </section>
+
+            <!-- form -->
+            <section class="section">
+              <div class="section__container">
+                <div class="section__wrapper">
+                  <h2 class="section__title">Есть вопросы? Получите бесплатную консультацию</h2>
+                  <p class="section__subtitle">Оставьте телефон и мы перезвоним и расскажем все подробности о филиале</p>
+                  <form class="form">
+                    <fieldset class="form__fieldset">
+                      <label class="form__label">
+                        <input type="tel" class="form__input form__input_style_text form__input_invalid" placeholder="+ 7 _ _ _ - _ _ - _ _" required>
+                      </label>
+                      <label class="form__label form__label_type_user-consent">
+                        Я принимаю условия пользовательского соглашения
+                        <input type="checkbox" value="phone" class="form__input form__input_style_radio form__input_checked" required>
+                      </label>
+                    </fieldset>
+                    <button class="button button_type_submit button_style_form" type="submit">отправить</button>
+                    <span class="form__validator-message"></span>
+                  </form>
+                </div>
+                <div class="section__background"></div>
+              </div>
+            </section>
 
       <!-- about -->
       <section class="section about">
