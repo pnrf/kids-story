@@ -153,70 +153,123 @@
 }
 
 .section__container {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   position: relative;
   margin: 0 auto;
-  /* padding: 68px 0 79px; */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   max-width: 1804px;
   width: 100%;
-  height: 385px;
   border-radius: 20px;
-  background-color: #8081BD;
+  overflow: hidden;
 }
 
 .section__wrapper {
-  /* margin: 0 auto; */
+  margin: 0 auto;
   max-width: 1420px;
-  width: 41%;
+  width: 100%;
 }
 
 .section__title {
   margin: 0;
-  width: 589px;
-  color: #fff;
+  max-width: 700px;
   font-weight: 700;
   font-size: 40px;
   line-height: 49px;
 }
 
 .section__subtitle {
-  margin: 24px 0 44px;
-  width: 442px;
-  color: #fff;
+  margin: 24px 0 0;
+  max-width: 442px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.section__text {
+  margin: 24px 0 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
 }
 
-.section__background {
+.intro__form {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  background-color: #8081bd;
+  width: 384px;
+  height: 100%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.feedback {
+  margin: 100px auto 85px;
+}
+
+.feedback__container {
+    height: 385px;
+}
+
+.feedback__container_bgr_blue {
+  background-color: #8081BD;
+  color: #fff;
+}
+
+.feedback__container_bgr_yellow {
+  background-color: #FFF6D1;
+  color: #334155;
+}
+
+.feedback__container_bgr_pink {
+  background-color: #F3ACC8;
+  color: #fff;
+}
+
+.feedback__container_bgr_green {
+  background-color: #79BC6D;
+  color: #fff;
+}
+
+.feedback__wrapper {
+  width: 45%;
+}
+
+.feedback__bgr-img {
   margin: -80px -95px -80px 0;
   padding: 80px 95px 80px 0;
   width: 696px;
   height: 100%;
   position: relative;
-  background-image: url('../images/bgr-elements/bgr-abstract-elements-02.svg');
   background-position: left;
-  /* background-size: 670px 694px; */
   background-repeat: no-repeat;
   overflow: visible;
 }
 
-.section__background::before {
+.feedback__bgr-img::before {
   content: '';
-  /* margin: -80px -95px -80px 0; */
-  /* padding: 80px 95px 80px 0; */
   width: inherit;
   height: inherit;
   position: absolute;
   bottom: 80px;
   left: 60px;
-  background-image: url('../images/bgr-elements/bgr-boy-02.png');
   background-position: bottom;
   background-repeat: no-repeat;
   overflow: visible;
+}
+
+.feedback__bgr-img_img_boy-loupe {
+  background-image: url('../images/bgr-elements/bgr-abstract-elements-01.svg');
+}
+
+.feedback__bgr-img_img_boy-loupe::before {
+  background-image: url('../images/bgr-elements/bgr-boy-01.png');
 }
 
 .form {

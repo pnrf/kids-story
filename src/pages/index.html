@@ -75,69 +75,90 @@
     <main class="main">
 
       <!-- intro -->
-      <section class="intro">
-        <div class="link slider__button-prev slider__button-prev_section_intro"></div>
-        <div class="link slider__button-next slider__button-next_section_intro"></div>
-        <div class="swiper swiper-section-intro">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <h1 class="intro__slide-title">Kidsstory</h1>
-              <h2 class="intro__slide-subtitle">Английский детский сад и клуб</h2>
-              <img src="<%=require('../images/boy-n-girl.png')%>" alt="Детский сад Kids Story. Картинка с детьми">
+      <section class="section intro">
+        <div class="section__container">
+
+          <div class="swiper swiper-section-intro">
+            <div class="link slider__button-prev slider__button-prev_section_intro"></div>
+            <div class="link slider__button-next slider__button-next_section_intro"></div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h1 class="intro__slide-title">Kidsstory</h1>
+                <h2 class="intro__slide-subtitle">Английский детский сад и клуб</h2>
+                <img src="<%=require('../images/boy-n-girl.png')%>" alt="Детский сад Kids Story. Картинка с детьми">
+              </div>
+              <div class="swiper-slide"><img src="<%=require('../images/boy-n-girl.png')%>" alt="Детский сад Kids Story. Картинка с детьми"></div>
             </div>
-            <div class="swiper-slide"><img src="<%=require('../images/boy-n-girl.png')%>" alt="Детский сад Kids Story. Картинка с детьми"></div>
           </div>
+
+          <form class="section form intro__form">
+            <h2 class="section__title">Есть вопросы? Получите бесплатную консультацию</h2>
+            <p class="section__text">Оставьте телефон и мы перезвоним и расскажем все подробности о филиале</p>
+            <fieldset class="form__fieldset">
+              <label class="form__label">
+                <input type="tel" class="form__input form__input_style_text form__input_invalid" placeholder="+ 7 _ _ _ - _ _ - _ _" required>
+              </label>
+              <label class="form__label form__label_type_user-consent">
+                Я принимаю условия пользовательского соглашения
+                <input type="checkbox" value="phone" class="form__input form__input_style_radio form__input_checked" required>
+              </label>
+            </fieldset>
+            <button class="button button_type_submit button_style_form" type="submit">отправить</button>
+            <span class="form__validator-message"></span>
+          </form>
         </div>
       </section>
 
       <!-- advantages -->
-      <section class="advantages">
-        <ul class="advantages__list">
-          <li class="advantages__item">
-            <img class="advantages__pic" src="<%=require('../images/advantages/adv-01.svg')%>" alt="Иконка для блока преимуществ">
-            <p class="advantages__text"><span class="advantages__text_style_highlighted">Часы работы:</span> с 7:00 до 19:00</p>
-          </li>
-          <li class="advantages__item">
-            <img class="advantages__pic" src="<%=require('../images/advantages/adv-02.svg')%>" alt="Иконка для блока преимуществ">
-            <p class="advantages__text"><span class="advantages__text_style_highlighted">Группы:</span> до 15 человек</p>
-          </li>
-          <li class="advantages__item">
-            <img class="advantages__pic" src="<%=require('../images/advantages/adv-03.svg')%>" alt="Иконка для блока преимуществ">
-            <p class="advantages__text"><span class="advantages__text_style_highlighted">Площадь для прогулок:</span> собственная оборудованная территория для прогулок</p>
-          </li>
-          <li class="advantages__item">
-            <img class="advantages__pic" src="<%=require('../images/advantages/adv-04.svg')%>" alt="Иконка для блока преимуществ">
-            <p class="advantages__text"><span class="advantages__text_style_highlighted">Видеонаблюдение:</span> онлайн</p>
-          </li>
-          <li class="advantages__item">
-            <img class="advantages__pic" src="<%=require('../images/advantages/adv-05.svg')%>" alt="Иконка для блока преимуществ">
-            <p class="advantages__text"><span class="advantages__text_style_highlighted">Англоязычная среда:</span> билингвал / экспат</p>
-          </li>
-          <li class="advantages__item">
-            <img class="advantages__pic" src="<%=require('../images/advantages/adv-06.svg')%>" alt="Иконка для блока преимуществ">
-            <p class="advantages__text"><span class="advantages__text_style_highlighted">Возраст детей:</span> с 1,5 до 7 лет</p>
-          </li>
-          <li class="advantages__item">
-            <img class="advantages__pic" src="<%=require('../images/advantages/adv-07.svg')%>" alt="Иконка для блока преимуществ">
-            <p class="advantages__text"><span class="advantages__text_style_highlighted">Утренний фильтр медработником:</span> ежедневно</p>
-          </li>
-          <li class="advantages__item">
-            <img class="advantages__pic" src="<%=require('../images/advantages/adv-08.svg')%>" alt="Иконка для блока преимуществ">
-            <p class="advantages__text"><span class="advantages__text_style_highlighted">Помещение:</span> 800 кв.м</p>
-          </li>
-          <li class="advantages__item">
-            <img class="advantages__pic" src="<%=require('../images/advantages/adv-09.svg')%>" alt="Иконка для блока преимуществ">
-            <p class="advantages__text"><span class="advantages__text_style_highlighted">Питание:</span> 5-разовое, с учетом индивидуальных особенностей ребенка</p>
-          </li>
-        </ul>
+      <section class="section advantages">
+        <div class="section__container">
+          <ul class="section__wrapper advantages__list">
+            <li class="advantages__item">
+              <img class="advantages__pic" src="<%=require('../images/advantages/adv-01.svg')%>" alt="Иконка для блока преимуществ">
+              <p class="advantages__text"><span class="advantages__text_style_highlighted">Часы работы:</span> с 7:00 до 19:00</p>
+            </li>
+            <li class="advantages__item">
+              <img class="advantages__pic" src="<%=require('../images/advantages/adv-02.svg')%>" alt="Иконка для блока преимуществ">
+              <p class="advantages__text"><span class="advantages__text_style_highlighted">Группы:</span> до 15 человек</p>
+            </li>
+            <li class="advantages__item">
+              <img class="advantages__pic" src="<%=require('../images/advantages/adv-03.svg')%>" alt="Иконка для блока преимуществ">
+              <p class="advantages__text"><span class="advantages__text_style_highlighted">Площадь для прогулок:</span> собственная оборудованная территория для прогулок</p>
+            </li>
+            <li class="advantages__item">
+              <img class="advantages__pic" src="<%=require('../images/advantages/adv-04.svg')%>" alt="Иконка для блока преимуществ">
+              <p class="advantages__text"><span class="advantages__text_style_highlighted">Видеонаблюдение:</span> онлайн</p>
+            </li>
+            <li class="advantages__item">
+              <img class="advantages__pic" src="<%=require('../images/advantages/adv-05.svg')%>" alt="Иконка для блока преимуществ">
+              <p class="advantages__text"><span class="advantages__text_style_highlighted">Англоязычная среда:</span> билингвал / экспат</p>
+            </li>
+            <li class="advantages__item">
+              <img class="advantages__pic" src="<%=require('../images/advantages/adv-06.svg')%>" alt="Иконка для блока преимуществ">
+              <p class="advantages__text"><span class="advantages__text_style_highlighted">Возраст детей:</span> с 1,5 до 7 лет</p>
+            </li>
+            <li class="advantages__item">
+              <img class="advantages__pic" src="<%=require('../images/advantages/adv-07.svg')%>" alt="Иконка для блока преимуществ">
+              <p class="advantages__text"><span class="advantages__text_style_highlighted">Утренний фильтр медработником:</span> ежедневно</p>
+            </li>
+            <li class="advantages__item">
+              <img class="advantages__pic" src="<%=require('../images/advantages/adv-08.svg')%>" alt="Иконка для блока преимуществ">
+              <p class="advantages__text"><span class="advantages__text_style_highlighted">Помещение:</span> 800 кв.м</p>
+            </li>
+            <li class="advantages__item">
+              <img class="advantages__pic" src="<%=require('../images/advantages/adv-09.svg')%>" alt="Иконка для блока преимуществ">
+              <p class="advantages__text"><span class="advantages__text_style_highlighted">Питание:</span> 5-разовое, с учетом индивидуальных особенностей ребенка</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <!-- form -->
-      <section class="section">
-        <div class="section__container">
-          <div class="section__wrapper">
+      <!-- feedback form -->
+      <section class="section feedback">
+        <div class="section__container feedback__container feedback__container_bgr_blue">
+          <div class="section__wrapper feedback__wrapper">
             <h2 class="section__title">Есть вопросы? Получите бесплатную консультацию</h2>
-            <p class="section__subtitle">Оставьте телефон и мы перезвоним и расскажем все подробности о филиале</p>
+            <p class="section__text">Оставьте телефон и мы перезвоним и расскажем все подробности о филиале</p>
             <form class="form">
               <fieldset class="form__fieldset">
                 <label class="form__label">
@@ -152,15 +173,15 @@
               <span class="form__validator-message"></span>
             </form>
           </div>
-          <div class="section__background"></div>
+          <div class="feedback__bgr-img feedback__bgr-img_img_boy-loupe"></div>
         </div>
       </section>
 
 
       <!-- add-services -->
       <section class="section services">
-        <div class="video-gallery__container services__container">
-          <h2 class="section__title video-gallery__title">Дополнительные услуги</h2>
+        <div class="section__wrapper">
+          <h2 class="section__title">Дополнительные услуги</h2>
           <ul class="advantages__list services__list">
             <li class="advantages__item">
               <img class="advantages__pic" src="<%=require('../images/services/icon-microphone.png')%>" alt="Иконка для дополнительных услуг">
@@ -267,10 +288,10 @@
       </section>
 
       <!-- video-gallery -->
-      <section class="video-gallery">
-        <div class="video-gallery__container">
-          <h3 class="video-gallery__title">Видеогалерея нашего сада</h3>
-          <p class="video-gallery__subtitle">Вы можете ознакомиться как проходят наши будни</p>
+      <section class="section video-gallery">
+        <div class="section__wrapper video-gallery__container">
+          <h3 class="section__title video-gallery__title">Видеогалерея нашего сада</h3>
+          <p class="section__text video-gallery__subtitle">Вы можете ознакомиться как проходят наши будни</p>
           <div class="swiper-pagination swiper-pagination_section_video"></div>
           <div class="swiper swiper-section-video">
             <div class="swiper-wrapper">
@@ -285,10 +306,10 @@
       </section>
 
       <!-- benefits -->
-      <section class="benefits">
-        <div class="video-gallery__container advantages__container">
-          <h2 class="video-gallery__title">Преимущества</h2>
-          <p class="video-gallery__subtitle">Наша авторская программа ведётся на русском и английском языках и состоит из увлекательных мероприятий</p>
+      <section class="section benefits">
+        <div class="section__wrapper">
+          <h2 class="section__title">Преимущества</h2>
+          <p class="section__text">Наша авторская программа ведётся на русском и английском языках и состоит из увлекательных мероприятий</p>
           <ul class="advantages__list">
             <li class="advantages__item">
               <img class="advantages__pic" src="<%=require('../images/advantages/adv-10.svg')%>" alt="Иконка для блока преимуществ">
@@ -319,9 +340,9 @@
       </section>
 
       <!-- team -->
-      <section class="team">
-        <div class="team__container">
-          <h3 class="team__title">Наша команда</h3>
+      <section class="section team">
+        <div class="section__wrapper team__container">
+          <h3 class="section__title team__title">Наша команда</h3>
           <div class="link slider__button-prev slider__button-prev_section_team"></div>
           <div class="link slider__button-next slider__button-next_section_team"></div>
           <div class="swiper swiper-section-team">
@@ -419,131 +440,109 @@
         </div>
       </section>
 
-            <!-- form -->
-            <section class="section">
-              <div class="section__container">
-                <div class="section__wrapper">
-                  <h2 class="section__title">Есть вопросы? Получите бесплатную консультацию</h2>
-                  <p class="section__subtitle">Оставьте телефон и мы перезвоним и расскажем все подробности о филиале</p>
-                  <form class="form">
-                    <fieldset class="form__fieldset">
-                      <label class="form__label">
-                        <input type="tel" class="form__input form__input_style_text form__input_invalid" placeholder="+ 7 _ _ _ - _ _ - _ _" required>
-                      </label>
-                      <label class="form__label form__label_type_user-consent">
-                        Я принимаю условия пользовательского соглашения
-                        <input type="checkbox" value="phone" class="form__input form__input_style_radio form__input_checked" required>
-                      </label>
-                    </fieldset>
-                    <button class="button button_type_submit button_style_form" type="submit">отправить</button>
-                    <span class="form__validator-message"></span>
-                  </form>
-                </div>
-                <div class="section__background"></div>
-              </div>
-            </section>
-
       <!-- about -->
       <section class="section about">
-        <div class="about__container team__container">
-          <h2 class="section__title video-gallery__title">О нашем центре</h2>
-          <p class="section__text video-gallery__subtitle">
+        <div class="section__wrapper">
+          <h2 class="section__title">О нашем центре</h2>
+          <p class="section__text">
             Мы создали пространство, в котором каждый ребёнок проявляет и раскрывает себя, развивает индивидуальные особенности и таланты.
           </p>
-          <p class="section__text video-gallery__subtitle">
+          <p class="section__text">
             Наша задача — сделать так, чтобы каждый день в Kids story был счастливым.
           </p>
-          <p class="section__text video-gallery__subtitle">
+          <p class="section__text">
             Английский детский клуб. Для детей с 2 до 7 лет. Погружение в языковую среду, собственная кухня, охраняемая огороженная территория, медицинский кабинет, соляная пещера.
           </p>
-          <p class="section__text video-gallery__subtitle">
+          <p class="section__text">
             Дополнительные услуги. Для детей с 2 до 18 лет. Развивающие студии, творческие мастерские, спортивные секции.
           </p>
-          <p class="section__text video-gallery__subtitle">
+          <p class="section__text">
             Kids story - «ежедневное развитие детей на 360 градусов».
           </p>
         </div>
       </section>
 
       <!-- reviews -->
-      <section class="reviews">
-        <div class="reviews__container">
-          <h3 class="reviews__title">Отзывы о саде</h3>
-          <div class="link slider__button-prev slider__button-prev_section_reviews"></div>
-          <div class="link slider__button-next slider__button-next_section_reviews"></div>
-          <div class="swiper-pagination swiper-pagination-section-reviews"></div>
-          <div class="swiper swiper-section-reviews">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="slider__card slider__card_section_reviews">
-                  <div class="slider__card-wrapper">
-                    <div class="slider__card-user">
-                      <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
-                      <div class="slider__card-user-info">
-                        <p class="slider__card-user-name">Татьяна К.</p>
-                        <p class="slider__card-user-location">Красногорск</p>
+      <section class="section reviews">
+        <div class="section__container">
+          <div class="section__wrapper">
+            <h3 class="reviews__title">Отзывы о саде</h3>
+            <div class="link slider__button-prev slider__button-prev_section_reviews"></div>
+            <div class="link slider__button-next slider__button-next_section_reviews"></div>
+            <div class="swiper-pagination swiper-pagination-section-reviews"></div>
+            <div class="swiper swiper-section-reviews">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slider__card slider__card_section_reviews">
+                    <div class="slider__card-wrapper">
+                      <div class="slider__card-user">
+                        <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
+                        <div class="slider__card-user-info">
+                          <p class="slider__card-user-name">Татьяна К.</p>
+                          <p class="slider__card-user-location">Красногорск</p>
+                        </div>
                       </div>
+                      <p class="slider__card-review">
+                        Классный сад! Ремонт сделан с вниманием к деталям, новые, интересные игрушки — мой внутренний эстет
+                        каждый раз ликует, приходя сюда. Малышки с радостью ходят на доп.занятия (английский, соляная пещера, хореография)
+                      </p>
                     </div>
-                    <p class="slider__card-review">
-                      Классный сад! Ремонт сделан с вниманием к деталям, новые, интересные игрушки — мой внутренний эстет
-                      каждый раз ликует, приходя сюда. Малышки с радостью ходят на доп.занятия (английский, соляная пещера, хореография)
-                    </p>
+                    <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                   </div>
-                  <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                 </div>
-              </div>
 
-              <div class="swiper-slide">
-                <div class="slider__card slider__card_section_reviews">
-                  <div class="slider__card-wrapper">
-                    <div class="slider__card-user">
-                      <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
-                      <div class="slider__card-user-info">
-                        <p class="slider__card-user-name">Юлечка А.</p>
-                        <p class="slider__card-user-location">Красногорск</p>
+                <div class="swiper-slide">
+                  <div class="slider__card slider__card_section_reviews">
+                    <div class="slider__card-wrapper">
+                      <div class="slider__card-user">
+                        <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
+                        <div class="slider__card-user-info">
+                          <p class="slider__card-user-name">Юлечка А.</p>
+                          <p class="slider__card-user-location">Красногорск</p>
+                        </div>
                       </div>
+                      <p class="slider__card-review">
+                        Новый детский сад! Профессиональный коллектив! Компетентные родители! Огромный спектр дополнительных услуг
+                      </p>
                     </div>
-                    <p class="slider__card-review">
-                      Новый детский сад! Профессиональный коллектив! Компетентные родители! Огромный спектр дополнительных услуг
-                    </p>
+                    <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                   </div>
-                  <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                 </div>
-              </div>
 
-              <div class="swiper-slide">
-                <div class="slider__card slider__card_section_reviews">
-                  <div class="slider__card-wrapper">
-                    <div class="slider__card-user">
-                      <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
-                      <div class="slider__card-user-info">
-                        <p class="slider__card-user-name">Роман Т.</p>
-                        <p class="slider__card-user-location">Москва</p>
+                <div class="swiper-slide">
+                  <div class="slider__card slider__card_section_reviews">
+                    <div class="slider__card-wrapper">
+                      <div class="slider__card-user">
+                        <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
+                        <div class="slider__card-user-info">
+                          <p class="slider__card-user-name">Роман Т.</p>
+                          <p class="slider__card-user-location">Москва</p>
+                        </div>
                       </div>
+                      <p class="slider__card-review">
+                        Прекрасный детский сад! Ходим с открытия! Видели даже секция каратэ ечть. Ходили на пробное занятие, будем записываться! Все новое и чистое. Отличный ремонт. Все няни добрые.
+                      </p>
                     </div>
-                    <p class="slider__card-review">
-                      Прекрасный детский сад! Ходим с открытия! Видели даже секция каратэ ечть. Ходили на пробное занятие, будем записываться! Все новое и чистое. Отличный ремонт. Все няни добрые.
-                    </p>
+                    <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                   </div>
-                  <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                 </div>
-              </div>
 
-              <div class="swiper-slide">
-                <div class="slider__card slider__card_section_reviews">
-                  <div class="slider__card-wrapper">
-                    <div class="slider__card-user">
-                      <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
-                      <div class="slider__card-user-info">
-                        <p class="slider__card-user-name">Мария У.</p>
-                        <p class="slider__card-user-location">Москва</p>
+                <div class="swiper-slide">
+                  <div class="slider__card slider__card_section_reviews">
+                    <div class="slider__card-wrapper">
+                      <div class="slider__card-user">
+                        <img class="slider__card-user-icon" src="<%=require('../images/icons/user-icon.svg')%>" alt="Иконка пользователя">
+                        <div class="slider__card-user-info">
+                          <p class="slider__card-user-name">Мария У.</p>
+                          <p class="slider__card-user-location">Москва</p>
+                        </div>
                       </div>
+                      <p class="slider__card-review">
+                        Могу сказать, что этот детский сад недавно открыли, и я в восторге от него. Здесь применяется индивидуальный подход к каждому ребенку.
+                      </p>
                     </div>
-                    <p class="slider__card-review">
-                      Могу сказать, что этот детский сад недавно открыли, и я в восторге от него. Здесь применяется индивидуальный подход к каждому ребенку.
-                    </p>
+                    <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                   </div>
-                  <a href="#" class="link slider__card-link">Прочитать отзыв</a>
                 </div>
               </div>
             </div>
@@ -552,8 +551,10 @@
       </section>
 
       <!-- yandex map -->
-      <section class="map">
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa4af532827b993b48dfe7513fbe00ae64ab3adb744e8c9d23c616bd380c512f7&amp;width=100%25&amp;height=501&amp;lang=ru_RU&amp;"></script>
+      <section class="section map">
+        <div class="section__container">
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa4af532827b993b48dfe7513fbe00ae64ab3adb744e8c9d23c616bd380c512f7&amp;width=100%25&amp;height=501&amp;lang=ru_RU&amp;"></script>
+        </div>
       </section>
     </main>
 
