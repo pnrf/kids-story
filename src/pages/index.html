@@ -77,7 +77,6 @@
       <!-- intro -->
       <section class="section intro">
         <div class="section__container">
-
           <div class="swiper swiper-section-intro">
             <div class="link slider__button-prev slider__button-prev_section_intro"></div>
             <div class="link slider__button-next slider__button-next_section_intro"></div>
@@ -92,18 +91,24 @@
           </div>
 
           <form class="section form intro__form">
-            <h2 class="section__title">Есть вопросы? Получите бесплатную консультацию</h2>
-            <p class="section__text">Оставьте телефон и мы перезвоним и расскажем все подробности о филиале</p>
+            <h2 class="section__title intro__form-title">Запишитесь на персональную экскурсию</h2>
+            <p class="section__text intro__form-text">Заполните форму и посмотрите детский сад вживую в удобное для вас время</p>
             <fieldset class="form__fieldset">
               <label class="form__label">
+                <input type="text" class="form__input form__input_style_text form__input_invalid" placeholder="Ваше имя" required>
+              </label>
+              <label class="form__label">
                 <input type="tel" class="form__input form__input_style_text form__input_invalid" placeholder="+ 7 _ _ _ - _ _ - _ _" required>
+              </label>
+              <label class="form__label">
+                <input type="email" class="form__input form__input_style_text form__input_invalid" placeholder="Ваш e-mail">
               </label>
               <label class="form__label form__label_type_user-consent">
                 Я принимаю условия пользовательского соглашения
                 <input type="checkbox" value="phone" class="form__input form__input_style_radio form__input_checked" required>
               </label>
             </fieldset>
-            <button class="button button_type_submit button_style_form" type="submit">отправить</button>
+            <button class="button button_type_submit button_style_form" type="submit">записаться</button>
             <span class="form__validator-message"></span>
           </form>
         </div>
