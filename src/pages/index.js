@@ -18,6 +18,20 @@ const swiperSectionIntro = new Swiper(".swiper-section-intro", {
     nextEl: '.slider__button-next_section_intro',
     prevEl: '.slider__button-prev_section_intro',
   },
+
+  // breakpoints: {
+  //   320: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 10,
+  //     slidesPerGroup: 1,
+  //   },
+
+  //   678: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 20,
+  //     slidesPerGroup: 2,
+  //   }
+  // }
 });
 
 const swiperSectionVideo = new Swiper(".swiper-section-video", {
