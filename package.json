@@ -6,6 +6,8 @@
   "scripts": {
     "build": "rm -rf dist && webpack --mode production",
     "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -51,6 +53,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.2",
     "cssnano": "^5.1.14",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "postcss": "^8.4.19",
